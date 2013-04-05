@@ -6,13 +6,13 @@ package idyno;
 
  * Laurent Lardon lardonl@supagro.inra.fr, DTU Environment, Technical University of Denmark (Denmark) & Laboratory of Environmental Biotechnology, INRA (France)
  * Brian Merkey, brim@env.dtu.dk (DTU Environment, Technical University of Denmark, Denmark) & bvm@northwestern.edu (Department of Engineering Sciences and Applied Mathematics, Northwestern University, USA)
- * Andreas Dötsch andreas.doetsch@helmholtz-hzi.de,  Chronic Pseudomonas Infections Group, Helmholtz Centre for Infection Research (Germany)
- * João Xavier xavierj@mskcc.org, Computational biology research, Memorial Sloan-Kettering Cancer Center, New York (USA)
- * Sónia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
+ * Andreas D��tsch andreas.doetsch@helmholtz-hzi.de,  Chronic Pseudomonas Infections Group, Helmholtz Centre for Infection Research (Germany)
+ * Jo��o Xavier xavierj@mskcc.org, Computational biology research, Memorial Sloan-Kettering Cancer Center, New York (USA)
+ * S��nia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
  * Cristian Picioreanu C.Picioreanu@tudelft.nl, The Biofilm Research Group, Technical University of Delft (Netherlands)
  * Jan-Ulrich Kreft j.kreft@bham.ac.uk, Centre for Systems Biology, School of Biosciences, University of Birmingham (UK)
  * Barth Smets bfs@env.dtu.dk, DTU Environment, Technical University of Denmark (Denmark)
- * Sónia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
+ * S��nia Martins SCM808@bham.ac.uk, Centre for Systems Biology,School of Biosciences, University of Birmingham (UK)
 
 
 
@@ -54,10 +54,10 @@ package idyno;
  *
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de)
  * @author Laurent Lardon (lardonl@supagro.inra.fr)
  * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu)
- * @author João Xavier (xavierj@mskcc.org)
+ * @author Jo��o Xavier (xavierj@mskcc.org)
  * @author Cristian Picioreanu (C.Picioreanu@tudelft.nl)
  * @author Jan-Ulrich Kreft (j.kreft@bham.ac.uk)
  */
@@ -104,6 +104,7 @@ public class Idynomics {
 	 * Process arguments, create a Simulator object and launch its execution
 	 */
 	public static void main(String[] args) throws Exception {
+		System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
 		processArguments(args);
 		currentPath = _activePath[0];
 
