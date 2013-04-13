@@ -7,9 +7,9 @@
  * ______________________________________________________
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S��nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  */
 
 package simulator.agent;
@@ -669,7 +669,7 @@ public abstract class LocatedAgent extends ActiveAgent implements Cloneable {
 		_newLoc.add(_movement);
 		AllBC aBoundary = getDomain().testCrossedBoundary(_newLoc);
 		int nDim = (_agentGrid.is3D ? 3 : 2);
-		boolean test = (aBoundary!=null);
+		boolean test = (aBoundary!=null);//test is true when a boundary has been crossed
 		int counter = 0;
 
 		// Test all boundaries and apply corrections according to crossed

@@ -9,9 +9,9 @@
 /**
  * @since june 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S��nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  */
 
 package simulator;

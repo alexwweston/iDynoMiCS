@@ -6,7 +6,7 @@
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu), Department of Engineering Sciences and Applied Mathematics, Northwestern University (USA)
  */
@@ -131,7 +131,7 @@ public abstract class ActiveAgent extends SpecialisedAgent implements HasReactio
 			}
 		}
 
-		// Now copy these value in the speciesParam strucure
+		// Now copy these value in the speciesParam structure
 		getSpeciesParam().soluteYield = soluteYield.clone();
 		getSpeciesParam().particleYield = particleYield.clone();
 		getSpeciesParam().reactionKinetic = reactionKinetic.clone();

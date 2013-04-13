@@ -7,9 +7,9 @@
  * 
  * @since April 2007
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S��nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  * 
  */
 
@@ -24,6 +24,7 @@ import simulator.geometry.*;
 import simulator.geometry.boundaryConditions.AllBC;
 import simulator.SoluteGrid;
 import utils.ExtraMath;
+import simulator.agent.zoo.Planktonic;
 
 public class LocatedGroup {
 
@@ -158,7 +159,9 @@ public class LocatedGroup {
 	public double computeMove(SoluteGrid pressure, double deltaT) {
 		if (this.isOutside) move.reset();
 		else {
+			//System.out.println("Getting gradient:" + this.cc);
 			move = pressure.getGradient(this.cc);
+			//System.out.println("In computeMove: move returned");
 			if (!move.isValid()) move.reset();
 			move.times(-deltaT);
 		}
@@ -173,10 +176,15 @@ public class LocatedGroup {
 	// in the element
 	public void addMoveToAgents(double alpha) {
 		for (LocatedAgent aLoc : group) {
-			//if (aLoc.isAttached()) move.x = 0;
-			move.times(alpha);
-			aLoc.addMovement(move);
+			if (!aLoc.getClass().equals(Planktonic.class)){
+				//@author alexandraweston don't move if it's a Planktonic
+			
+				//if (aLoc.isAttached()) move.x = 0;
+				move.times(alpha);
+				aLoc.addMovement(move);
+			}
 		}
+		
 	}
 
 	/**

@@ -23,6 +23,7 @@ import java.util.*;
 
 import simulator.agent.*;
 import simulator.agent.zoo.MultiEpiBac;
+import simulator.agent.zoo.Planktonic;
 
 import simulator.detachment.*;
 import simulator.diffusionSolver.Solver_pressure;
@@ -54,12 +55,14 @@ public class AgentContainer {
 	public LinkedList<SpecialisedAgent> _agentToKill = new LinkedList<SpecialisedAgent>();
 
 
-	private SpatialGrid[] _speciesGrid;
+	protected SpatialGrid[] _speciesGrid;
 
 	// Definition of the spatial grid ____________________________ */
-	private int _nI, _nJ, _nK, _nTotal;
-	private double _res;
-	private LocatedGroup[] _grid;
+	private int _nI, _nJ, _nK;
+	protected int _nTotal;
+	protected double _res;
+	private LocatedGroup[] _grid;//grid has a "LocatedGroup" representing
+								 //every grid cell.
 	protected double[][][] _erosionGrid;
 	public boolean is3D;
 
@@ -90,6 +93,8 @@ public class AgentContainer {
 
 	/* _______________________ CONSTRUCTOR __________________________________ */
 
+	
+	
 	/**
 	 * XML protocol file-based constructor
 	 */
@@ -146,7 +151,7 @@ public class AgentContainer {
 		checkGridSize(aSimulator, root);
 
 		// Now initialise the padded grid
-
+		// creates and initializes _grid
 		createShovGrid(aSimulator);
 		// Initialise spatial grid used to display species distribution
 		createOutputGrid(aSimulator);
@@ -181,13 +186,13 @@ public class AgentContainer {
 
 		/* STEP AGENTS ________________________________________________ */
 		LogFile.chronoMessageIn();
-		Collections.shuffle(agentList, ExtraMath.random);
+		Collections.shuffle(agentList, ExtraMath.random);//randomize the agentList
 
 		// record values at the beginning
 		nDead = 0;
 		nBirth = 0;
 		nAgent = agentList.size();
-		double dt = 0;
+		double dt = 0;//local time step
 		double elapsedTime = 0;
 		double globalTimeStep = SimTimer.getCurrentTimeStep();
 		// for the local time step, choose the value according to which is best
@@ -214,6 +219,7 @@ public class AgentContainer {
 			if(Simulator.isChemostat){
 				//sonia: bypass bacteria movement according to pressure field
 			}else{
+				
 				followPressure();
 			}
 
@@ -338,6 +344,7 @@ public class AgentContainer {
 			// On grid elements on the border apply a probabilistic erosion
 			// Rob Feb 2011: added borderErosion(), an alternative to erodeBorder(), which
 			// removes whole agents in a deterministic way
+			
 			if (EROSIONMETHOD)
 				shrinkOnBorder();
 			else
@@ -354,6 +361,7 @@ public class AgentContainer {
 				}
 
 				LogFile.chronoMessageOut("Detachment");
+				
 				
 		}
 		nAgent = agentList.size();
@@ -375,12 +383,12 @@ public class AgentContainer {
 		if (!mySim.getSolver("pressure").isActive()) return 0;
 
 		LogFile.writeLog("Doing pressure calculations.");
-
+		
+		
 
 		// get local timestep (which was set in the step() routine calling this one)
 		double dt = SimTimer.getCurrentTimeStep();
-
-
+		
 		// Solve for pressure field
 		mySim.getSolver("pressure").initAndSolve();
 		_pressure = ((Solver_pressure) mySim.getSolver("pressure")).getPressureGrid();
@@ -389,12 +397,16 @@ public class AgentContainer {
 		// copy calculated pressure field to the solute list
 		// (allows easy output of pressure field)
 		mySim.getSolute("pressure").setGrid(_pressure.getGrid());
-
 		// Determine local advection speed
 		moveMax = 0;
-		for (LocatedGroup aGroup : _grid)
+		int count =0;
+		//System.out.println("_grid.length: " +_grid.length);
+		for (LocatedGroup aGroup : _grid){
+			//count++;
+			//System.out.println("working on grid element: " + count);
 			moveMax = Math.max(moveMax, aGroup.computeMove(_pressure,AGENTTIMESTEP));
-
+		}
+		
 		// bvm 04.03.09: new method to address any high velocities:
 		// use smaller local timesteps to keep the movement under control
 		double dtlocal = dt;
@@ -415,13 +427,20 @@ public class AgentContainer {
 		double alpha = dtlocal/dt;
 		for (LocatedGroup aGroup : _grid)
 			aGroup.addMoveToAgents(alpha);
-
 		// now apply the scaled agent movements to each agent
 		deltaMove = 0;
 		for (int i=0; i<itlocal; ++i) {
 			agentIter = agentList.listIterator();
-			while (agentIter.hasNext())
-				deltaMove += agentIter.next().move();
+			
+			SpecialisedAgent anAgent;
+			while (agentIter.hasNext()){
+				//@author alexandraweston don't move if it's a Planktonic
+				anAgent = agentIter.next();
+				if (!anAgent.getClass().equals(Planktonic.class)){
+				
+					deltaMove += anAgent.move();
+				}
+			}
 		}
 
 		return deltaMove;
@@ -473,13 +492,17 @@ public class AgentContainer {
 		double nMoved2 = 0;
 
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
-			// Compute movement, deltaMove is relative movement
 			anAgent = agentIter.next();
+			
+			if (!anAgent.getClass().equals(Planktonic.class)){
+			// Compute movement, deltaMove is relative movement
+			
 			deltaMove = anAgent.interact(MUTUAL, pushOnly, !isSynchro, gain);
 
 			tMoved += deltaMove;
 			nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
 			nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
+			}
 		}
 
 
@@ -489,18 +512,20 @@ public class AgentContainer {
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 			// Compute movement, deltaMove is relative movement
 			anAgent = agentIter.next();
-			deltaMove = anAgent.move();
-
-			tMoved += deltaMove;
-			nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
-			nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
-
-			if (anAgent.isDead){
-				anAgent.death = "invalidMove";
-				//_agentToKill.add(anAgent);
-				//sonia 26.04.2010
-				//added agentList.remove(anAgent);
-				//agentList.remove(anAgent);
+			if (!anAgent.getClass().equals(Planktonic.class)){
+				deltaMove = anAgent.move();
+	
+				tMoved += deltaMove;
+				nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
+				nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
+	
+				if (anAgent.isDead){
+					anAgent.death = "invalidMove";
+					//_agentToKill.add(anAgent);
+					//sonia 26.04.2010
+					//added agentList.remove(anAgent);
+					//agentList.remove(anAgent);
+				}
 			}
 		}
 		//sonia 26.04.2010
@@ -732,6 +757,8 @@ public class AgentContainer {
 			anAgent.die(false);
 		}
 	}
+	
+	
 
 	public void fitAgentMassOnGrid(SpatialGrid biomassGrid) {
 		for (int i = 0; i < _nTotal; i++) {
@@ -1322,6 +1349,7 @@ public class AgentContainer {
 	/**
 	 * Create a vectorized array of spatial groups, build their neighbourhood
 	 * and store it Note :Shoving grid is a padded of LocatedGroups
+	 * Creates and initializes _grid
 	 */
 	public void createShovGrid(Simulator aSimulator) {
 

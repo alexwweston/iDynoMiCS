@@ -8,10 +8,10 @@
 /**
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu), Department of Engineering Sciences and Applied Mathematics, Northwestern University (USA)
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S��nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  */
 
 package simulator;
@@ -43,6 +43,7 @@ import simulator.diffusionSolver.*;
 import simulator.geometry.*;
 import simulator.reaction.*;
 import simulator.agent.*;
+import simulator.agent.zoo.Planktonic;
 
 public class Simulator {
 
@@ -246,6 +247,19 @@ public class Simulator {
 				>= (_outputPeriod - 0.01*SimTimer.getCurrentTimeStep())) ||
 				SimTimer.simIsFinished() ) {
 			writeReport();
+			//@author alexandraweston: test locations
+			//agentGrid.agentList.next()
+			ListIterator<SpecialisedAgent> agentIter;
+			LocatedAgent anAgent;
+			for (agentIter = agentGrid.agentList.listIterator(); agentIter.hasNext();) {
+				anAgent = (LocatedAgent) agentIter.next();
+				//System.out.println("Location of agent is:" + anAgent.getLocation());
+				/*if (anAgent.getClass().equals(Planktonic.class)){
+					System.out.println("and agent is a is a Plantonic!");
+				}
+				*/
+			}
+
 		}	
 
 		//sonia 26.04.2010
@@ -597,6 +611,8 @@ public class Simulator {
 				System.out.print("\t Agent Grid: \n");
 				XMLParser parser = new XMLParser(_protocolFile.getChildElement("agentGrid"));
 				agentGrid = new AgentContainer(this, parser, agentTimeStep);
+				//
+				
 				is3D = agentGrid.is3D;
 				System.out.print("\t done\n");
 
@@ -717,6 +733,8 @@ public class Simulator {
 		}
 		if (creatingAgents) agentGrid.relaxGrid();
 	}
+	
+
 
 	/* _____________________________________________________________________ */
 

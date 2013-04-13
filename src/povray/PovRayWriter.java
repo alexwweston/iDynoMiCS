@@ -1,5 +1,5 @@
 /**
- * Project iDynoMiCS (copyright -> see Idynomics.java)
+  * Project iDynoMiCS (copyright -> see Idynomics.java)
  * ______________________________________________________
  * Writer of povray files (rendering engines of 3D scenes)
  */
@@ -7,7 +7,7 @@
 /**
  * @since Feb 2007
  * @version 1.0
- * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ * @author Jo��o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  */
 
