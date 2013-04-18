@@ -42,6 +42,7 @@ import povray.PovRayWriter;
 import simulator.diffusionSolver.*;
 import simulator.geometry.*;
 import simulator.reaction.*;
+import simulator.Planktonic.PlanktonicManager;
 import simulator.agent.*;
 import simulator.agent.zoo.Planktonic;
 
@@ -111,7 +112,11 @@ public class Simulator {
 
 	/* Grid where all located agents are stored */
 	public AgentContainer         agentGrid;
-
+	
+	/* @author alexandraweston class for updating/handling planktonics and their time steps */
+	public PlanktonicManager planktonicManager;
+	boolean usePlanktonics;
+	
 	private Chart _graphics;
 
 	/* __________________________ CONSTRUCTOR _______________________________ */
@@ -244,21 +249,23 @@ public class Simulator {
 		// quite hit it (which happens sometimes due to floating point issues)
 		// (this will also output for sure on the last step) 
 		if ( ((SimTimer.getCurrentTime()-_lastOutput)
-				>= (_outputPeriod - 0.01*SimTimer.getCurrentTimeStep())) ||
-				SimTimer.simIsFinished() ) {
+				>= (_outputPeriod - 0.01*SimTimer.getCurrentTimeStep())) ||SimTimer.simIsFinished() ) {
 			writeReport();
 			//@author alexandraweston: test locations
 			//agentGrid.agentList.next()
 			ListIterator<SpecialisedAgent> agentIter;
 			LocatedAgent anAgent;
+			
+			/*
 			for (agentIter = agentGrid.agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = (LocatedAgent) agentIter.next();
 				//System.out.println("Location of agent is:" + anAgent.getLocation());
-				/*if (anAgent.getClass().equals(Planktonic.class)){
+				f (anAgent.getClass().equals(Planktonic.class)){
 					System.out.println("and agent is a is a Plantonic!");
 				}
-				*/
+				
 			}
+			*/
 
 		}	
 
@@ -317,6 +324,8 @@ public class Simulator {
 		isFluctEnv = localRoot.getParamBool("isFluctEnv");
 		multiEpi = localRoot.getParamBool("ismultiEpi");
 		invComp = localRoot.getParamBool("invComp");
+		//@author alexandraweston: determine if planktonics will be used
+		usePlanktonics = localRoot.getChild("planktonicManagement").getParamBool("usePlanktonics");
 
 		agentTimeStep = localRoot.getParamTime("agentTimeStep");
 
@@ -612,7 +621,13 @@ public class Simulator {
 				XMLParser parser = new XMLParser(_protocolFile.getChildElement("agentGrid"));
 				agentGrid = new AgentContainer(this, parser, agentTimeStep);
 				//
-				
+				if(usePlanktonics){
+
+					LogFile.writeLog("Simulator uses Planktonics");
+					//@author alexandraweston: also create the planktonicManager;
+					parser = new XMLParser(_protocolFile.getChildElement("simulator").getChild("planktonicManagement"));
+					planktonicManager = new PlanktonicManager(this, parser, agentTimeStep);
+				}
 				is3D = agentGrid.is3D;
 				System.out.print("\t done\n");
 
@@ -656,6 +671,8 @@ public class Simulator {
 					checkAgentBirth();
 				}
 				System.out.print("\t done\n");
+			
+
 			//} catch (Exception e) {
 				//LogFile.writeLog("Error in Simulator.createSpecies() third stage");
 			//}

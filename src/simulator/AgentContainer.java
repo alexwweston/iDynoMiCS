@@ -200,7 +200,19 @@ public class AgentContainer {
 
 		double nAgent0 = agentList.size();
 		// Apply a shorter time step when visiting all the agents
-
+		
+		/*
+		 * @alexandraweston: while loop:
+		 * 1) I added this step: performs all Planktonic steps
+		 * 		(this will step Planktonics multiple times, as dictated by the Planktonic time step.
+		 * 		Also, planktonic agents are added to the system in this call
+		 * 		)
+		 * 2) steps all agents
+		 * 3) removes killed agents
+		 * 4) updates birthed agents materic
+		 * 5) preforms shoving
+		 * 6)moves agents according to pressure
+		 */
 		while (elapsedTime < globalTimeStep) {
 			// by default use the saved agent timestep
 			dt = localdt;
@@ -212,9 +224,17 @@ public class AgentContainer {
 
 			elapsedTime += dt;		
 
-			/* Step all the agents */
+			
 			SimTimer.setCurrentTimeStep(dt);
-
+			//reset the list iterator
+			agentIter = agentList.listIterator();
+			/* Preform planktonic steps */
+			if(aSim.usePlanktonics){
+				aSim.planktonicManager.runPlanktonicTimeSteps();
+				
+			}
+			
+			/* Step all the agents */
 			//sonia:chemostat
 			if(Simulator.isChemostat){
 				//sonia: bypass bacteria movement according to pressure field
@@ -222,19 +242,27 @@ public class AgentContainer {
 				
 				followPressure();
 			}
-
-
+			
+			System.out.println("stepping non-planktonics");
 			for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = agentIter.next();
-				anAgent.step();
+				
+				if (!anAgent.getClass().equals(Planktonic.class)){
+					
+					anAgent.step();
+				}
+				
+				
 			}
-
+			
+			System.out.println("done stepping non-planktonics");
+			System.out.println("1");
 			Collections.shuffle(agentList, ExtraMath.random);
 
 			if (Simulator.isChemostat){
 				agentFlushedAway(dt);		
 			}
-
+			System.out.println("2");
 
 			// Add and remove agents
 			nBirth += agentList.size() - nAgent;
@@ -255,10 +283,16 @@ public class AgentContainer {
 			for(SpecialisedAgent aDeathAgent: _agentToKill){
 				if (aDeathAgent.isDead) {
 					nDead++;
+					
 					agentList.remove(aDeathAgent);
+					//@author alexandraweston: this remove was throwing a ConcurrentModificationException.
+					//It also seemed like bad design: The agent will already be removed in the line above.
+					//This extra remove here would remove the last element in the list, which we do NOT want to do.
+					//agentIter.remove();
 					removeLocated(aDeathAgent);
 				}
 			}
+			System.out.println("4");
 
 			// Apply moderate overlap relaxation
 
@@ -268,7 +302,13 @@ public class AgentContainer {
 				shoveAllLocated(false, true, 15, 1, 1);
 			}
 		}
-
+		
+		/* 
+		 * @alexweston: after all of the agent time steps/global time step:
+		 * 1) agents are shoved again
+		 * 2) attachment/detachment status is updated
+		 * 3) erosian and desloughing occur
+		 */
 		SimTimer.setCurrentTimeStep(globalTimeStep);
 
 		//sonia 11.10.2010 - implementing HGT step after agents' division and shoving
@@ -355,10 +395,10 @@ public class AgentContainer {
 					System.exit(-1);
 				}
 				// mark biomass connected to the carrier and remove any non-connected portions
-				if (DOSLOUGHING) {
+			if (DOSLOUGHING) {
 					refreshGroupStatus();
 					markForSloughing();
-				}
+			}
 
 				LogFile.chronoMessageOut("Detachment");
 				
@@ -434,7 +474,8 @@ public class AgentContainer {
 			
 			SpecialisedAgent anAgent;
 			while (agentIter.hasNext()){
-				//@author alexandraweston don't move if it's a Planktonic
+				//@author alexandraweston don't apply 
+				//pressure movements if it's a Planktonic
 				anAgent = agentIter.next();
 				if (!anAgent.getClass().equals(Planktonic.class)){
 				
@@ -482,7 +523,8 @@ public class AgentContainer {
 
 	/* _________________________________________________________________ */
 	/**
-	 * 
+	 * @author alexandraweston: added logic to ignore planktonics when 
+	 * applying these movements
 	 */
 	protected double performMove(boolean pushOnly, boolean isSynchro,
 			double gain) {
@@ -496,12 +538,12 @@ public class AgentContainer {
 			
 			if (!anAgent.getClass().equals(Planktonic.class)){
 			// Compute movement, deltaMove is relative movement
-			
-			deltaMove = anAgent.interact(MUTUAL, pushOnly, !isSynchro, gain);
-
-			tMoved += deltaMove;
-			nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
-			nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
+				
+				deltaMove = anAgent.interact(MUTUAL, pushOnly, !isSynchro, gain);
+	
+				tMoved += deltaMove;
+				nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
+				nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
 			}
 		}
 

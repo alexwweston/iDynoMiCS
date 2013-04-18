@@ -43,7 +43,7 @@ public abstract class LocatedAgent extends ActiveAgent implements Cloneable {
 	/* Agent's location ____________________________________________________ */
 	// Agent position and agent movement are expressed with continuous
 	// coordinates
-	protected ContinuousVector         _location          = new ContinuousVector();
+	public ContinuousVector         _location          = new ContinuousVector();
 	protected ContinuousVector         _movement          = new ContinuousVector();
 	protected ContinuousVector         _divisionDirection = new ContinuousVector();
 	protected LinkedList<LocatedAgent> _myNeighbors       = new LinkedList<LocatedAgent>();

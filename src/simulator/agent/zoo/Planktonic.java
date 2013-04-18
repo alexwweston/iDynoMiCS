@@ -3,6 +3,9 @@
  */
 package simulator.agent.zoo;
 
+import java.util.Iterator;
+
+import simulator.agent.LocatedAgent;
 import simulator.geometry.ContinuousVector;
 import utils.LogFile;
 
@@ -11,6 +14,9 @@ import utils.LogFile;
  *
  */
 public class Planktonic extends Bacterium {
+	public double swimSpeed;//speed (um/s) at which the planktonic executes
+							//swim behavior //TODO: integrate parameter
+	public double attachmentRadius=3;//microns
 
 	/**
 	 * @author alexandraweston: Planktonic is similar to Bacterium, but overrides
@@ -26,29 +32,65 @@ public class Planktonic extends Bacterium {
 	 * class Agent to avoid multiple calls
 	 */
 	protected void internalStep() {
-		//Compute mass growth over all compartments
-		//grow();
-		//updateSize();
-		//get and add to location
-		//System.out.println(this.getLocation());\
-		//System.out.println("Agent internalStep");
+
 		_movement.add(0,2,0);
 		
 		move();
 		
-		
-		//System.out.println(this.getLocation());
-
-
-		// Die if you are out of bounds
-		/*
-		if (! _agentGrid.domain.isInside(_location)  ) {
-			die(true);
-			System.out.println("killing in internalStep due to out of bounds location");
+		//check for possibility that planktonic will attach
+		//to biofilm
+		if(willAttach(1, attachmentRadius)){
+			attach();
+			
 		}
-		*/
+		
 	}
 	
+	/**
+	 * Handles removal of this planktonic from the system
+	 * and addition of new biofilm cell to the System
+	 */
+	private void attach() {
+		System.out.println("would attach at location: " + _location);
+		//1) Register new biofilm cell with this planktonic's 
+		//location //TODO: should other parameters carry over as well?
+		
+
+		//2) Remove and kill this planktonic
+		
+	}
+	/**
+	 * Tests if planktonic is close enough to a biofilm cell to attach.
+	 * 
+	 * @param gridDist : how many grid cells around the agent will you check
+	 * 					 intuition says just one
+	 * @param attachDist : the distance a planktonic must be from a biofilm agent
+	 * 					   to achieve attachment. This is implimented similarly
+	 * 					   to LocatedAgent.addPushMovement();
+	 */
+	private boolean willAttach(double gridDist, double attachDist) {
+		boolean attach= false;
+		LocatedAgent anAgent;
+		double dist;
+		
+		getPotentialShovers(gridDist);
+		Iterator<LocatedAgent> iter = _myNeighbors.iterator();
+		while (iter.hasNext()&&attach==false) {
+			anAgent=iter.next();
+			//check for a neighboring biofilm cell
+			if(!anAgent.getClass().equals(Planktonic.class)){
+				dist = computeDifferenceVector(_location, anAgent._location);
+				if(dist<attachDist) attach= true;
+				
+			}
+	
+		}
+		_myNeighbors.clear();
+		
+		
+		return attach;
+		
+	}
 	/**
 	 * @override original method in LocatedAgent
 	 * LocatedAgent.move() prevents agents from leaving a boundary--but we
@@ -77,12 +119,13 @@ public class Planktonic extends Bacterium {
 		// Test the boundaries
 		//checkBoundaries();
 		// Die if you are out of bounds
-		/*if (! _agentGrid.domain.isInside(_location)  ){ 
-			die(true);
-			System.out.println("killing in move() due to out of bounds location");
+		if (! _agentGrid.domain.isInside(_location)  ){ 
+			//die(true);
+			_agentGrid.mySim.planktonicManager.scheduleRemove(this);
+			System.out.println("removing planktonic from planktonicManager." +
+								" Planktonic is out of bounds");
 			
-			return 0;
-		}*/
+		}
 	
 
 			_agentGrid.registerMove(this);
@@ -92,6 +135,18 @@ public class Planktonic extends Bacterium {
 			return delta/_totalRadius;
 
 
+	}
+	
+	/**
+	 * Register the agent on the agent grid and on the guilds
+	 * @author alexandraweston: additionally, register the planktonic
+	 * in the PlanktonicManager
+	 */
+	public void registerBirth() {
+		// Register on species and reaction grids
+		super.registerBirth();
+		this._agentGrid.mySim.planktonicManager.registerPlanktonic(this);
+		
 	}
 
 	

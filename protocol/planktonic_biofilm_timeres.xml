@@ -56,13 +56,14 @@
 			 - usePlanktonics: set to false if no bacterial agents are planktonic.
 			 MUST specify all parameters if using any planktonic/chemotaxing agents
 			 - planktonicArrivalRate: how often planktonics will be added to the system
-			 - 
+			 						  MUST be at least one arrival/agentTimeStep
+			 - planktonicTimeStep: how often planktonic locations/behavior will be updated
 			 
 			 
 		-->
 		<planktonicManagement>
 			<param name="usePlanktonics">true</param>
-			<param name="planktonArrivalRate" unit="agents/hour"></param>
+			<param name="planktonArrivalRate" unit="agents/hour">50</param>
 			<param name="planktonicTimeStep" unit="hour">.001</param>
 		</planktonicManagement>
 		
@@ -510,7 +511,13 @@
 			mark-up is shown here and explained below:
 
 		-->
-
+	<planktonicInit>
+		<initArea number="1">
+			<param name="birthday" unit="hour">0</param>
+			<coordinates x="40" y="1" z="0"/>
+			<coordinates x="250" y="2" z="0"/>
+		</initArea>
+	</planktonicInit>
 
 	<species class="Planktonic" name="MyPlanktonic">
 		<particle name="biomass">
@@ -519,6 +526,10 @@
 		<particle name="inert">
 			<param name="mass" unit="fg">0</param>
 		</particle>
+		
+		<!-- two new params not yet read in -->
+		<param name="speed" unit="um/s"> </param>
+		<param name="swimmingBehavior"> </param>
 
 		<param name="color">blue</param>
 		<param name="computationDomain">MyBiofilm</param>
@@ -535,56 +546,9 @@
 		<param name="kHyd" unit="hr-1">0.007</param>
 
 
-		<initArea number="5">
-			<param name="birthday" unit="hour">0</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="10" z="0"/>
-		</initArea>
-		
-		<initArea number="3">
-			<param name="birthday" unit="hour">1</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-				<initArea number="3">
-			<param name="birthday" unit="hour">2</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-				<initArea number="5">
-			<param name="birthday" unit="hour">3</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="10" z="0"/>
-		</initArea>
-		
-		<initArea number="3">
-			<param name="birthday" unit="hour">4</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-				<initArea number="3">
-			<param name="birthday" unit="hour">5</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-				<initArea number="5">
-			<param name="birthday" unit="hour">6</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="10" z="0"/>
-		</initArea>
-		
-		<initArea number="3">
-			<param name="birthday" unit="hour">7</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-				<initArea number="3">
-			<param name="birthday" unit="hour">8</param>
-			<coordinates x="40" y="1" z="0"/>
-			<coordinates x="250" y="2" z="0"/>
-		</initArea>
-		
 	</species>
+
+
 
 <species class="Bacterium" name="MyHeterotroph">
 		<particle name="biomass">

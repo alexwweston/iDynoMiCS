@@ -10,6 +10,7 @@ import simulator.agent.zoo.*;
 
 /**
  * @author alexandraweston
+ * just a unit test for this package
  *
  */
 public class PlanktonicTest {
@@ -18,24 +19,14 @@ public class PlanktonicTest {
 	}
 
 	/**
-	 * Test method for {@link simulator.Planktonic.Planktonic#Planktonic()}.
+	 * Test method for {@link simulator.Planktonic.PlanktonicManager}.
 	 */
 	@Test
-	public void testPlanktonic() {
+	public void testPlanktonicContainer() {
 		//fail("Not yet implemented");
+		//PlanktonicManager mngr = new PlanktonicManager();
 		
-		Bacterium myBact = new Bacterium();
-		Planktonic myPlank = new Planktonic();
-		if (myPlank instanceof Planktonic){
-			System.out.println("myPlank is a Planktonic!");
-		}
-		if (myPlank.getClass().equals(Bacterium.class)){
-			System.out.println("myPlank is a Bacterium!");
-		}
-		if (!myBact.getClass().equals(Planktonic.class)){
-			System.out.println("myBact is a is a Bacterium!");
-		}
-		
+		//mngr.runPlanktonicTimeSteps();
 		
 	}
 
