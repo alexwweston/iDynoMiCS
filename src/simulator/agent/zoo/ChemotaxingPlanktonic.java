@@ -13,7 +13,17 @@ public class ChemotaxingPlanktonic extends Planktonic {
 	 * 
 	 */
 	public ChemotaxingPlanktonic() {
-		// TODO Auto-generated constructor stub
+		// 
+		super();
+	}
+	
+	/**
+	 * overrides Planktonic.determineNewLoc
+	 * implements chemotaxis
+	 */
+	protected void determineNewLoc() {
+		_movement.add(0,2,0);
+		
 	}
 
 }

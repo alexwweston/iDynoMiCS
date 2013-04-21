@@ -256,13 +256,11 @@ public class AgentContainer {
 			}
 			
 			System.out.println("done stepping non-planktonics");
-			System.out.println("1");
 			Collections.shuffle(agentList, ExtraMath.random);
 
 			if (Simulator.isChemostat){
 				agentFlushedAway(dt);		
 			}
-			System.out.println("2");
 
 			// Add and remove agents
 			nBirth += agentList.size() - nAgent;
@@ -292,7 +290,6 @@ public class AgentContainer {
 					removeLocated(aDeathAgent);
 				}
 			}
-			System.out.println("4");
 
 			// Apply moderate overlap relaxation
 

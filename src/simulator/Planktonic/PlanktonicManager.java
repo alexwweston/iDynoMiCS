@@ -42,6 +42,7 @@ public class PlanktonicManager {
 	public final double PLANKTONICARRIVALRATE;//arrivals/hr
 	public double arrivalPerAgentTS;//arrivals/agentTimeStep
 	public double plankTSPerAgentTS;//number of planktonic time steps per agent time step
+	protected Species biofilmSpec;
 	
 	// Container for all agents (even the non located ones)
 
@@ -84,6 +85,13 @@ public class PlanktonicManager {
 			
 			//determine how many planktonics will arrive per AGENTTIMESTEP
 			arrivalPerAgentTS = PLANKTONICARRIVALRATE*AGENTTIMESTEP;
+			
+			//TODO: associate the planktonics with a specific type of biofilm cell
+			//in the protocol file
+			int index = mySim.getSpeciesIndex("MyHeterotroph");
+			
+			biofilmSpec = mySim.speciesList.get(index);
+			
 		}catch(Exception e){
 			System.err.println(" error in PlnktonicManager constructor " + e);
 			throw e;
@@ -252,6 +260,20 @@ public class PlanktonicManager {
 			else
 				return 0;
 		}
+	}
+	
+	/**
+	 * called by Planktonic when a particular plantonic is within range to
+	 * attach to the biofilm.
+	 * @param _location is the current location of the plankonic cell that will attach
+	 */
+
+	public void newBiofilmCell(ContinuousVector _location) {
+		// for now, just get the MyBiofilm species and createPop() one of those.
+		biofilmSpec.createPop(_location);
+		
+		
+		
 	}
 	
 	

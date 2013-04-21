@@ -6,4 +6,5 @@ encoding//src/simulator/SpatialGrid.java=UTF-8
 encoding//src/simulator/agent/ActiveAgent.java=UTF-8
 encoding//src/simulator/agent/LocatedAgent.java=UTF-8
 encoding//src/simulator/agent/LocatedGroup.java=UTF-8
+encoding//src/simulator/agent/Species.java=UTF-8
 encoding//src/simulator/geometry/Domain.java=UTF-8

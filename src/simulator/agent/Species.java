@@ -10,9 +10,9 @@
  * 
  * @since June 2006
  * @version 1.0
- * @author Andreas Dötsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D��tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
- * @author Sónia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S��nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  * 
  */
 
@@ -114,6 +114,18 @@ public class Species implements Serializable {
 		}
 
 		LogFile.writeLog(howMany+" agents of species "+speciesName+" successfully created");
+	}
+	
+	/**
+	 * @author alexandraweston
+	 * Called by PlanktonicManager to make a new biofilm agent of
+	 * a particular species when a planktonic "attaches" to the biofilm
+	 * @param _location : location of the planktonic agent and future biofilm
+	 * agent.
+	 */
+	public void createPop(ContinuousVector _location){
+		((LocatedAgent) _progenitor).createNewAgent(_location);
+		
 	}
 
 	public void notifyBirth() {

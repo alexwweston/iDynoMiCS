@@ -14,6 +14,8 @@ import utils.LogFile;
  *
  */
 public class Planktonic extends Bacterium {
+	
+
 	public double swimSpeed;//speed (um/s) at which the planktonic executes
 							//swim behavior //TODO: integrate parameter
 	public double attachmentRadius=3;//microns
@@ -32,8 +34,9 @@ public class Planktonic extends Bacterium {
 	 * class Agent to avoid multiple calls
 	 */
 	protected void internalStep() {
-
-		_movement.add(0,2,0);
+		
+		determineNewLoc();
+		
 		
 		move();
 		
@@ -47,16 +50,26 @@ public class Planktonic extends Bacterium {
 	}
 	
 	/**
+	 * sets the location to move to during an internalStep()
+	 * 
+	 */
+	protected void determineNewLoc() {
+		_movement.add(0,2,0);
+		
+	}
+	/**
 	 * Handles removal of this planktonic from the system
 	 * and addition of new biofilm cell to the System
 	 */
 	private void attach() {
-		System.out.println("would attach at location: " + _location);
+		System.out.println("attach at location: " + _location);
 		//1) Register new biofilm cell with this planktonic's 
 		//location //TODO: should other parameters carry over as well?
 		
-
+		_agentGrid.mySim.planktonicManager.newBiofilmCell(_location);
 		//2) Remove and kill this planktonic
+		_agentGrid.mySim.planktonicManager.scheduleRemove(this);
+		super.die(true);
 		
 	}
 	/**
