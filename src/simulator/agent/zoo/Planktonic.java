@@ -91,7 +91,7 @@ public class Planktonic extends Bacterium {
 		while (iter.hasNext()&&attach==false) {
 			anAgent=iter.next();
 			//check for a neighboring biofilm cell
-			if(!anAgent.getClass().equals(Planktonic.class)){
+			if(!(anAgent instanceof Planktonic)){
 				dist = computeDifferenceVector(_location, anAgent._location);
 				if(dist<attachDist) attach= true;
 				

@@ -43,9 +43,9 @@
 			simulation will end. -->
 		<timeStep>
 			<param name="adaptive">false</param>
-			<param name="timeStepIni" unit="hour">1</param>
+			<param name="timeStepIni" unit="hour">.5</param>
 			<param name="timeStepMin" unit="hour">0.05</param>
-			<param name="timeStepMax" unit="hour">1</param>
+			<param name="timeStepMax" unit="hour">.5</param>
 			<param name="endOfSimulation" unit="day">1</param>
 		</timeStep>
 		<!-- The AGENTTIMESTEP which should always be EQUAL or LOWER than the global time step -->
@@ -63,7 +63,7 @@
 		-->
 		<planktonicManagement>
 			<param name="usePlanktonics">true</param>
-			<param name="planktonArrivalRate" unit="agents/hour">50</param>
+			<param name="planktonArrivalRate" unit="agents/hour">100</param>
 			<param name="planktonicTimeStep" unit="hour">.001</param>
 		</planktonicManagement>
 		
@@ -519,7 +519,7 @@
 		</initArea>
 	</planktonicInit>
 
-	<species class="Planktonic" name="MyPlanktonic">
+	<species class="ChemotaxingPlanktonic" name="MyPlanktonic">
 		<particle name="biomass">
 			<param name="mass" unit="fg">0</param>
 		</particle>

@@ -176,7 +176,7 @@ public class LocatedGroup {
 	// in the element
 	public void addMoveToAgents(double alpha) {
 		for (LocatedAgent aLoc : group) {
-			if (!aLoc.getClass().equals(Planktonic.class)){
+			if (!(aLoc instanceof Planktonic)){
 				//@author alexandraweston don't move if it's a Planktonic
 			
 				//if (aLoc.isAttached()) move.x = 0;

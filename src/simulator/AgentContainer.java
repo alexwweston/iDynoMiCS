@@ -247,7 +247,7 @@ public class AgentContainer {
 			for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = agentIter.next();
 				
-				if (!anAgent.getClass().equals(Planktonic.class)){
+				if (!(anAgent instanceof Planktonic)){
 					
 					anAgent.step();
 				}
@@ -474,7 +474,7 @@ public class AgentContainer {
 				//@author alexandraweston don't apply 
 				//pressure movements if it's a Planktonic
 				anAgent = agentIter.next();
-				if (!anAgent.getClass().equals(Planktonic.class)){
+				if (!(anAgent instanceof Planktonic)){
 				
 					deltaMove += anAgent.move();
 				}
@@ -533,7 +533,7 @@ public class AgentContainer {
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 			anAgent = agentIter.next();
 			
-			if (!anAgent.getClass().equals(Planktonic.class)){
+			if (!(anAgent instanceof Planktonic)){
 			// Compute movement, deltaMove is relative movement
 				
 				deltaMove = anAgent.interact(MUTUAL, pushOnly, !isSynchro, gain);
@@ -551,7 +551,7 @@ public class AgentContainer {
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 			// Compute movement, deltaMove is relative movement
 			anAgent = agentIter.next();
-			if (!anAgent.getClass().equals(Planktonic.class)){
+			if (!(anAgent instanceof Planktonic)){
 				deltaMove = anAgent.move();
 	
 				tMoved += deltaMove;

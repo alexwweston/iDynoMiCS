@@ -69,7 +69,7 @@ public class PlanktonicManager {
 		try{
 			//TODO read in vals from the protocol file. For now, just hard-code them
 			PLANKTONICTIMESTEP = .01;
-			PLANKTONICARRIVALRATE = 100;
+			PLANKTONICARRIVALRATE = 50;
 			
 			mySim = aSimulator;
 			AGENTTIMESTEP= agentTimeStep;
@@ -87,9 +87,8 @@ public class PlanktonicManager {
 			arrivalPerAgentTS = PLANKTONICARRIVALRATE*AGENTTIMESTEP;
 			
 			//TODO: associate the planktonics with a specific type of biofilm cell
-			//in the protocol file
-			int index = mySim.getSpeciesIndex("MyHeterotroph");
-			
+			//in the protocol file. Parse this here
+			int index = mySim.getSpeciesIndex("MyHeterotroph"); 
 			biofilmSpec = mySim.speciesList.get(index);
 			
 		}catch(Exception e){
@@ -217,6 +216,7 @@ public class PlanktonicManager {
 	 * add a planktonic to the entire system
 	 */
 	public void addPlanktonic(){
+		//TODO generalize this for use with any protocol file
 		
 		try{
 		System.err.println("adding planktonic");
