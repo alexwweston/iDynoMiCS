@@ -104,6 +104,7 @@ public class Idynomics {
 	 * Process arguments, create a Simulator object and launch its execution
 	 */
 	public static void main(String[] args) throws Exception {
+		System.out.println("Emily was here");
 		System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
 		processArguments(args);
 		currentPath = _activePath[0];
