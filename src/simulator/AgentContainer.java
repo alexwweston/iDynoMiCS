@@ -40,7 +40,7 @@ import utils.ExtraMath;
 public class AgentContainer {
 
 	/* __________________ Properties __________________________ */
-
+	int pressureCounter=0;
 	public Domain domain;
 	public Simulator mySim;
 
@@ -100,6 +100,7 @@ public class AgentContainer {
 	 */
 	public AgentContainer(Simulator aSimulator, XMLParser root, double agentTimeStep) throws Exception {
 		// Read FINAL fields
+		
 		SHOV_FRACTION = root.getParamDbl("shovingFraction");
 		MAXITER = root.getParamInt("shovingMaxIter");
 		MUTUAL = root.getParamBool("shovingMutual");
@@ -207,6 +208,7 @@ public class AgentContainer {
 		 * 		(this will step Planktonics multiple times, as dictated by the Planktonic time step.
 		 * 		Also, planktonic agents are added to the system in this call
 		 * 		)
+		 * update: then removes killed planktonics
 		 * 2) steps all agents
 		 * 3) removes killed agents
 		 * 4) updates birthed agents materic
@@ -215,6 +217,7 @@ public class AgentContainer {
 		 */
 		while (elapsedTime < globalTimeStep) {
 			// by default use the saved agent timestep
+
 			dt = localdt;
 
 
@@ -231,8 +234,21 @@ public class AgentContainer {
 			/* Preform planktonic steps */
 			if(aSim.usePlanktonics){
 				aSim.planktonicManager.runPlanktonicTimeSteps();
+			
+				//remove dead planktonics from the simulation, as they will not effect
+				//pressure
+				
+				for(SpecialisedAgent aDeathAgent: _agentToKill){
+					if (aDeathAgent.isDead) {
+						nDead++;
+						agentList.remove(aDeathAgent);
+						removeLocated(aDeathAgent);
+					}
+				}
 				
 			}
+
+			
 			
 			/* Step all the agents */
 			//sonia:chemostat
@@ -412,13 +428,13 @@ public class AgentContainer {
 	 */
 	public double followPressure() {
 		double moveMax;
-
+		
 		// Find a solver for pressure field and use it
 		if (mySim.getSolver("pressure")==null) return 0;
 
 		// don't use the pressure if it's not active
 		if (!mySim.getSolver("pressure").isActive()) return 0;
-
+		pressureCounter++;
 		LogFile.writeLog("Doing pressure calculations.");
 		
 		

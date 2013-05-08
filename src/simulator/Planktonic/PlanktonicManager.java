@@ -43,6 +43,7 @@ public class PlanktonicManager {
 	public double arrivalPerAgentTS;//arrivals/agentTimeStep
 	public double plankTSPerAgentTS;//number of planktonic time steps per agent time step
 	protected Species biofilmSpec;
+	String planktonicName = "ChemotaxPlank";
 	
 	// Container for all agents (even the non located ones)
 
@@ -88,11 +89,11 @@ public class PlanktonicManager {
 			
 			//TODO: associate the planktonics with a specific type of biofilm cell
 			//in the protocol file. Parse this here
-			int index = mySim.getSpeciesIndex("MyHeterotroph"); 
+			int index = mySim.getSpeciesIndex("JoinedPlanktonic"); 
 			biofilmSpec = mySim.speciesList.get(index);
 			
 		}catch(Exception e){
-			System.err.println(" error in PlnktonicManager constructor " + e);
+			System.out.println(" error in PlnktonicManager constructor " + e);
 			throw e;
 		}
 			
@@ -107,7 +108,7 @@ public class PlanktonicManager {
 	try{
 			planktonicList.add(anAgent);
 	}catch(Exception e){
-		System.err.println(" error in registerPlanktonic " + e);
+		System.out.println(" error in registerPlanktonic " + e);
 	}
 		
 		
@@ -129,7 +130,7 @@ public class PlanktonicManager {
 				removePlanktonics.clear();
 			}
 		}catch(Exception e){
-			System.err.println(" error in removePlanktonics " + e);
+			System.out.println(" error in removePlanktonics " + e);
 		}
 	}
 	
@@ -142,7 +143,7 @@ public class PlanktonicManager {
 			removePlanktonics.add(aPlanktonic);
 		}
 		catch(Exception e){
-			System.err.println(" error in scheduleRemove " + e);
+			System.out.println(" error in scheduleRemove " + e);
 		}
 		
 	}
@@ -180,7 +181,7 @@ public class PlanktonicManager {
 			
 			while(!eventQueue.isEmpty()){
 				currEvent= eventQueue.remove();
-				//System.err.println("time: " + currEvent.time);
+				//System.out.println("time: " + currEvent.time);
 				if(currEvent.etype == eventType.ARRIVAL){
 					addPlanktonic();
 				}
@@ -189,7 +190,7 @@ public class PlanktonicManager {
 				}
 			}
 		}catch(Exception e){
-			System.err.println(" error in runPlanktonicTimeSteps " + e);
+			System.out.println(" error in runPlanktonicTimeSteps " + e);
 		}
 			
 
@@ -197,7 +198,7 @@ public class PlanktonicManager {
 	
 	public void stepPlanktonics(){
 		try{
-		System.err.println("stepping all planktonics");
+		System.out.println("stepping all planktonics");
 		Planktonic aPlanktonic;
 		
 		for (planktonicIter = planktonicList.listIterator(); planktonicIter.hasNext();) {
@@ -207,7 +208,7 @@ public class PlanktonicManager {
 		//only remove planktonics after stepping through the whole list
 		removePlanktonics();
 		}catch(Exception e){
-			System.err.println(" error in stepPlanktonics " + e);
+			System.out.println(" error in stepPlanktonics " + e);
 		}
 		
 	}
@@ -219,22 +220,36 @@ public class PlanktonicManager {
 		//TODO generalize this for use with any protocol file
 		
 		try{
-		System.err.println("adding planktonic");
+		System.out.println("adding planktonic");
 		
 		XMLParser parser = mySim._protocolFile.getChild("planktonicInit").getChild("initArea");
-		int index = mySim.getSpeciesIndex("MyPlanktonic");
-		//System.err.println("good");
+		int index = mySim.getSpeciesIndex(planktonicName);
+		//System.out.println("good");
 		Species plankSpec = mySim.speciesList.get(index);
-		//System.err.println("good 2");
+		//System.out.println("good 2");
 		plankSpec.createPop(parser);
-		//System.err.println("good 3");
+		//System.out.println("good 3");
 		
 		}catch(Exception e){
-			System.err.println(" error in addPlanktonic " + e);
+			System.out.println(" error in addPlanktonic " + e);
 		}
 			
 	}
+	
+	/**
+	 * called by Planktonic when a particular plantonic is within range to
+	 * attach to the biofilm.
+	 * @param _location is the current location of the plankonic cell that will attach
+	 */
 
+	public void newBiofilmCell(ContinuousVector _location) {
+		// for now, just get the MyBiofilm species and createPop() one of those.
+		biofilmSpec.createPop(_location);
+		
+		
+		
+	}
+	
 	
 	/**
 	 * private inner class for use in the eventQueue
@@ -261,21 +276,7 @@ public class PlanktonicManager {
 				return 0;
 		}
 	}
-	
-	/**
-	 * called by Planktonic when a particular plantonic is within range to
-	 * attach to the biofilm.
-	 * @param _location is the current location of the plankonic cell that will attach
-	 */
 
-	public void newBiofilmCell(ContinuousVector _location) {
-		// for now, just get the MyBiofilm species and createPop() one of those.
-		biofilmSpec.createPop(_location);
-		
-		
-		
-	}
-	
 	
 	
 

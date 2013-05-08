@@ -13,6 +13,9 @@ import simulator.geometry.ContinuousVector;
 
 public class ChemotaxingPlanktonic extends Planktonic {
 	public enum Direction {UP, DOWN, LEFT, RIGHT};
+	boolean will_chemotax = true;
+	String chemoeffector = "ai2";
+	boolean repellant = true;
 	/**
 	 * 
 	 */
@@ -26,7 +29,12 @@ public class ChemotaxingPlanktonic extends Planktonic {
 	 * implements chemotaxis
 	 */
 	protected void determineNewLoc() {
-		chemotax();
+		if(will_chemotax){
+			chemotax();
+		}
+		else{
+			super.determineNewLoc();
+		}
 		
 	}
 	
@@ -39,9 +47,7 @@ public class ChemotaxingPlanktonic extends Planktonic {
 		// TODO implement more complicated chemotaxis
 		
 		//get the specific soluteGrid
-		//TODO make a more reusable way to get the correct solute grid
-		//this ONLY works for planktonic_biofilm_timres.xml
-		SoluteGrid chemotaxSolute = this._agentGrid.mySim.soluteList[0];
+		SoluteGrid chemotaxSolute = this._agentGrid.mySim.soluteList[this._agentGrid.mySim.getSoluteIndex(chemoeffector)];
 		//get the [solute] at adjacent grid points
 		ContinuousVector testLoc = this._location;
 		double curr= chemotaxSolute.getValueAt(testLoc);
@@ -77,19 +83,19 @@ public class ChemotaxingPlanktonic extends Planktonic {
 		switch(currDir){
 			case UP:
 				_movement.add(2,0,0);
-				//System.err.println("moving UP");
+				//System.out.println("moving UP");
 				break;
 			case DOWN:
 				_movement.add(-2,0,0);
-				//System.err.println("moving DOWN");
+				//System.out.println("moving DOWN");
 				break;
 			case LEFT:
 				_movement.add(0,-2,0);
-				//System.err.println("moving LEFT");
+				//System.out.println("moving LEFT");
 				break;
 			case RIGHT:
 				_movement.add(0,2,0);
-				//System.err.println("moving RIGHT");
+				//System.out.println("moving RIGHT");
 				break;
 		}
 		

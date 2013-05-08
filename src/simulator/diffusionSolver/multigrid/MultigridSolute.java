@@ -9,7 +9,7 @@
 /**
  * @since June 2006
  * @version 1.0
- * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ * @author Jo��o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
  * 
  */
 
@@ -125,7 +125,7 @@ public class MultigridSolute {
 		}
 	}
 
-	/* _______________ ______________________________________ */
+	/* _____________________________________________________ */
 
 	/**
 	 * Beginning of each nested loop

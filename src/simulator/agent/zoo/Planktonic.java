@@ -5,8 +5,12 @@ package simulator.agent.zoo;
 
 import java.util.Iterator;
 
+import simulator.Simulator;
 import simulator.agent.LocatedAgent;
+import simulator.agent.SpecialisedAgent;
 import simulator.geometry.ContinuousVector;
+import simulator.geometry.Domain;
+import utils.ExtraMath;
 import utils.LogFile;
 
 /**
@@ -20,13 +24,14 @@ public class Planktonic extends Bacterium {
 							//swim behavior //TODO: integrate parameter
 	public double attachmentRadius=3;//microns
 
+
 	/**
 	 * @author alexandraweston: Planktonic is similar to Bacterium, but overrides
 	 * methods that function differently.
 	 */
 	public Planktonic() {
-		// TODO Planktonic-specific application calls
-		super();
+		super();		
+		
 		
 	}
 	/**
@@ -54,6 +59,8 @@ public class Planktonic extends Bacterium {
 	 * 
 	 */
 	protected void determineNewLoc() {
+		
+		//_movement.add((ExtraMath.getNormRand()-.5)*5,(ExtraMath.getNormRand()-.5)*5,0);
 		_movement.add(0,2,0);
 		
 	}
@@ -156,13 +163,58 @@ public class Planktonic extends Bacterium {
 	 * in the PlanktonicManager
 	 */
 	public void registerBirth() {
+		//set the location at which the planktonic
+		//enters the system
+		entryLoc();
+		
+		
 		// Register on species and reaction grids
 		super.registerBirth();
-		this._agentGrid.mySim.planktonicManager.registerPlanktonic(this);
+		//register in Planktonic Manager
+		_agentGrid.mySim.planktonicManager.registerPlanktonic(this);
 		
 	}
+	public void entryLoc(){
+		//remember here that the traditional meanings of x and y
+		//are switched in iDynoMiCS
+		double rand, x_coord, y_coord, height, width;
+		try{
+		Domain compDomain = _agentGrid.mySim.world.getDomain("MyBiofilm");
+		width = compDomain.length_Y;
+		height = compDomain.length_X;
+		System.out.println("after Planktonic()->width/height");
+		//the random number will be normally distributed, as it's more likely
+		//planktonics enter from the top of the simulation.
+		//2width + height is the length of the computational domain's border; that is,
+		//the length of the border at which planktonics can arrive
+		//TODO: implement normal. for now, just using uniform
+		rand=  ((2*width + height)*ExtraMath.getUniRand());
+		//test if the entry location will be at the 
+		//top or on one of the sides
 
-	
+		if(rand<=height){
+			y_coord = 1;
+			x_coord = rand;
+			
+			
+		}else if(rand<=(height+width)){
+			y_coord = rand - height;
+			x_coord = height-1;
+		}else{
+			y_coord = width-1;
+			x_coord = rand - width - height;
+		}
+
+		ContinuousVector startLoc = new ContinuousVector(x_coord, y_coord, 0);
+		if( !_agentGrid.domain.isInside(startLoc) ){
+			System.err.println("ru-roh");
+		}
+		this.setLocation(startLoc);
+		}catch(Exception e){
+			System.out.println("error in Planktonic.entryLoc()");
+		}
+		
+	}
 	
 	
 

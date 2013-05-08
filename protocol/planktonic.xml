@@ -30,7 +30,7 @@
 		<!-- defining this value allows the simulation to be re-run deterministically -->
 		<!-- note that if a random.state file is present in the same directory then 
 			this will be used instead of the random seed -->
-		<param name="randomSeed">42</param>
+		<param name="randomSeed">25</param>
 		
 		<!-- this specifies how often the output files should be written -->
 		<param name="outputPeriod" unit="hour">1</param>
@@ -519,7 +519,7 @@
 		</initArea>
 	</planktonicInit>
 
-	<species class="ChemotaxingPlanktonic" name="MyPlanktonic">
+	<species class="Planktonic" name="MyPlanktonic">
 		<particle name="biomass">
 			<param name="mass" unit="fg">0</param>
 		</particle>
@@ -527,7 +527,7 @@
 			<param name="mass" unit="fg">0</param>
 		</particle>
 		
-		<!-- two new params not yet read in -->
+		<!-- two new params not yet read in/used -->
 		<param name="speed" unit="um/s"> </param>
 		<param name="swimmingBehavior"> </param>
 
