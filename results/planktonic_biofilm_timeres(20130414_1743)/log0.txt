@@ -1,0 +1,60 @@
+2013-04-14 17:43:32 : Read in random number generator
+2013-04-14 17:43:32 : Setting initial 0.01
+2013-04-14 17:43:32 : Setting initial 0.0
+2013-04-14 17:43:32 : 		MyCOD (0)
+2013-04-14 17:43:32 : 		pressure (1)
+2013-04-14 17:43:32 : 	 Reactions: 
+
+2013-04-14 17:43:32 : Reaction 0 is autocatalyic
+2013-04-14 17:43:32 : 		MyGrowthHeterotrophs (0)
+2013-04-14 17:43:32 : 	 done
+2013-04-14 17:43:32 : 		MyPlanktonic (0)
+2013-04-14 17:43:32 : 		MyHeterotroph (1)
+2013-04-14 17:43:32 : Agent time step is... 0.05
+2013-04-14 17:43:32 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-14 17:43:32 : Simulator uses Planktonics
+2013-04-14 17:43:32 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-14 17:43:32 : Guessing MyHeterotroph initial mass at: 7539.84
+2013-04-14 17:43:32 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-14 17:43:32 : 10.0 agents of species MyHeterotroph successfully created
+2013-04-14 17:43:33 : done done in 0 sec
+2013-04-14 17:43:33 : System description finalized
+2013-04-14 17:43:33 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/planktonic_biofilm_timeres(20130414_1743)/planktonic_biofilm_timeres.xml):OK
+2013-04-14 17:43:33 : Solving Diffusion-reaction done in 0 sec
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Agents stepped/dead/born: 11.0/0/11 done in 0 sec
+2013-04-14 17:43:33 : 0/22 after 2 shove iterations
+2013-04-14 17:43:33 : Eroding 0 (611.495E0/609.453E0 fg)
+2013-04-14 17:43:33 : Detachment done in 0 sec
+2013-04-14 17:43:33 : Simulating agents done in 0 sec
+2013-04-14 17:43:33 : System description finalized
+2013-04-14 17:43:33 : Computation time :0.0 minute(s) 
+ 	 -> Iter 1, Time: 1.0 achieved in 0.6 sec 
+
+2013-04-14 17:43:33 : Solving Diffusion-reaction done in 0 sec
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Doing pressure calculations.
+2013-04-14 17:43:33 : Simulation failed. java.lang.ArrayIndexOutOfBoundsException: 35
+2013-04-14 17:43:33 : Wrote random number generator

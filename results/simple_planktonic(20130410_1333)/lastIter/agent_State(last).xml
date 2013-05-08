@@ -1,0 +1,11 @@
+<idynomics>
+ <simulation iterate="24" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="MyPlanktonic" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+3,0,0,0.0,11323.099712183865,0.0,0.0,0.0,0.0,43.697887784406106,261.4308717466855,0.0,1.733071972043097,1.733071972043097;
+5,0,0,0.0,8593.962268563453,0.0,0.0,0.0,0.0,47.4061387532566,261.4941461962296,0.0,1.509839051769907,1.509839051769907;
+1,0,0,0.0,10341.835600436274,0.0,0.0,0.0,0.0,39.78018031351389,261.7642166443039,0.0,1.6562761482238486,1.6562761482238486;
+</species>
+
+</simulation>
+</idynomics>

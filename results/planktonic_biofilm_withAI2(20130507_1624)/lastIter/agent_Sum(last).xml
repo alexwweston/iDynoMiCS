@@ -1,0 +1,10 @@
+<idynomics>
+ <simulation iterate="40" time="20.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="ChemotaxPlank" header="population,mass,growthRate" >
+10.0,64219.04395750699,0.0</species>
+<species name="MyHeterotroph" header="population,mass,growthRate" >
+241.0,2440692.386721482,89147.3141307099</species>
+
+</simulation>
+</idynomics>

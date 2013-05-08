@@ -1,0 +1,26 @@
+2013-04-11 17:35:16 : Read in random number generator
+2013-04-11 17:35:16 : Setting initial 0.01
+2013-04-11 17:35:16 : Setting initial 0.0
+2013-04-11 17:35:16 : 		MyCOD (0)
+2013-04-11 17:35:16 : 		pressure (1)
+2013-04-11 17:35:16 : 	 Reactions: 
+
+2013-04-11 17:35:16 : Reaction 0 is autocatalyic
+2013-04-11 17:35:16 : 		MyGrowthHeterotrophs (0)
+2013-04-11 17:35:16 : 	 done
+2013-04-11 17:35:16 : 		MyPlanktonic (0)
+2013-04-11 17:35:16 : Agent time step is... 0.05
+2013-04-11 17:35:16 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-11 17:35:16 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-11 17:35:16 : 10.0 agents of species MyPlanktonic successfully created
+2013-04-11 17:35:16 : done done in 0 sec
+2013-04-11 17:35:16 : System description finalized
+2013-04-11 17:35:16 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/simple_planktonic(20130411_1735)/simple_planktonic.xml):OK
+2013-04-11 17:35:17 : Solving Diffusion-reaction done in 0 sec
+2013-04-11 17:35:17 : Doing pressure calculations.
+2013-04-11 17:35:17 : 1
+2013-04-11 17:35:17 : 2
+2013-04-11 17:35:17 : 3
+2013-04-11 17:35:17 : 4
+2013-04-11 17:35:17 : Simulation failed. java.lang.ArrayIndexOutOfBoundsException: 35
+2013-04-11 17:35:17 : Wrote random number generator

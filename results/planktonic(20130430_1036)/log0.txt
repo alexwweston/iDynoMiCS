@@ -1,0 +1,15 @@
+2013-04-30 10:36:34 : Read in random number generator
+2013-04-30 10:36:34 : Setting initial 0.01
+2013-04-30 10:36:34 : Setting initial 0.0
+2013-04-30 10:36:34 : 		MyCOD (0)
+2013-04-30 10:36:34 : 		pressure (1)
+2013-04-30 10:36:34 : 	 Reactions: 
+
+2013-04-30 10:36:34 : Reaction 0 is autocatalyic
+2013-04-30 10:36:34 : 		MyGrowthHeterotrophs (0)
+2013-04-30 10:36:34 : 	 done
+2013-04-30 10:36:34 : Unable to create class
+2013-04-30 10:36:34 : Error in Simulator.createSpecies() first stage
+2013-04-30 10:36:34 : Agent time step is... 0.05
+2013-04-30 10:36:35 : Error in Simulator.createSpecies() second stage
+2013-04-30 10:36:35 : Simulator.CreateSystem(): error met: java.lang.NullPointerException

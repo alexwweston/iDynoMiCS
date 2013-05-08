@@ -1,0 +1,52 @@
+2013-04-30 17:23:52 : Read in random number generator
+2013-04-30 17:23:52 : Setting initial 0.01
+2013-04-30 17:23:52 : Setting initial 0.0
+2013-04-30 17:23:52 : 		MyCOD (0)
+2013-04-30 17:23:52 : 		pressure (1)
+2013-04-30 17:23:52 : 	 Reactions: 
+
+2013-04-30 17:23:52 : Reaction 0 is autocatalyic
+2013-04-30 17:23:52 : 		MyGrowthHeterotrophs (0)
+2013-04-30 17:23:52 : 	 done
+2013-04-30 17:23:52 : 		MyPlanktonic (0)
+2013-04-30 17:23:52 : 		MyHeterotroph (1)
+2013-04-30 17:23:52 : Agent time step is... 0.05
+2013-04-30 17:23:52 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-30 17:23:52 : Simulator uses Planktonics
+2013-04-30 17:23:52 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-30 17:23:52 : Guessing MyHeterotroph initial mass at: 7539.84
+2013-04-30 17:23:52 : 10.0 agents of species MyHeterotroph successfully created
+2013-04-30 17:23:52 : done done in 0 sec
+2013-04-30 17:23:53 : System description finalized
+2013-04-30 17:23:53 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/planktonic(20130430_1723)/planktonic.xml):OK
+2013-04-30 17:23:53 : Solving Diffusion-reaction done in 0 sec
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Doing pressure calculations.
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Doing pressure calculations.
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Doing pressure calculations.
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Agent location is not valid -> Killed
+2013-04-30 17:23:53 : Doing pressure calculations.
+2013-04-30 17:23:53 : Simulation failed. java.lang.ArrayIndexOutOfBoundsException: -1
+2013-04-30 17:23:53 : Wrote random number generator

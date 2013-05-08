@@ -1,0 +1,18 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<thickness domain="MyBiofilm" unit="um">
+	<mean>22.666666666666668</mean>
+	<stddev>27.60998209182886</stddev>
+	<max>116.0</max>
+</thickness>
+<bulk name="MyTank">
+<solute name="MyCOD" unit="g.L-1">4.461059946967353E-4</solute>
+<solute name="ai2" unit="g.L-1">0.12081050654000923</solute>
+<solute name="pressure" unit="g.L-1">0.0</solute>
+<uptake_rate name="MyCOD" unit="g.L-1.hour-1">-0.00874733189087557</uptake_rate>
+<uptake_rate name="ai2" unit="g.L-1.hour-1">0.07784741610719521</uptake_rate>
+<uptake_rate name="pressure" unit="g.L-1.hour-1">0.0</uptake_rate>
+</bulk>
+
+</simulation>
+</idynomics>

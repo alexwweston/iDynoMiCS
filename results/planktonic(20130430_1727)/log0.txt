@@ -1,0 +1,4 @@
+2013-04-30 17:27:06 : Read in random number generator
+2013-04-30 17:27:06 : Setting initial 0.01
+2013-04-30 17:27:06 : Setting initial 0.0
+2013-04-30 17:27:06 : Simulator.createSolutes() : error met java.lang.NullPointerException

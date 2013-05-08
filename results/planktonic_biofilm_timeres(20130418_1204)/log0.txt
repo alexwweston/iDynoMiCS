@@ -1,0 +1,199 @@
+2013-04-18 12:04:47 : Read in random number generator
+2013-04-18 12:04:47 : Setting initial 0.01
+2013-04-18 12:04:47 : Setting initial 0.0
+2013-04-18 12:04:47 : 		MyCOD (0)
+2013-04-18 12:04:47 : 		pressure (1)
+2013-04-18 12:04:47 : 	 Reactions: 
+
+2013-04-18 12:04:47 : Reaction 0 is autocatalyic
+2013-04-18 12:04:47 : 		MyGrowthHeterotrophs (0)
+2013-04-18 12:04:47 : 	 done
+2013-04-18 12:04:47 : 		MyPlanktonic (0)
+2013-04-18 12:04:47 : 		MyHeterotroph (1)
+2013-04-18 12:04:47 : Agent time step is... 0.05
+2013-04-18 12:04:47 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-18 12:04:47 : Simulator uses Planktonics
+2013-04-18 12:04:47 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-18 12:04:47 : Guessing MyHeterotroph initial mass at: 7539.84
+2013-04-18 12:04:47 : 10.0 agents of species MyHeterotroph successfully created
+2013-04-18 12:04:47 : done done in 0 sec
+2013-04-18 12:04:48 : System description finalized
+2013-04-18 12:04:48 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/planktonic_biofilm_timeres(20130418_1204)/planktonic_biofilm_timeres.xml):OK
+2013-04-18 12:04:48 : Solving Diffusion-reaction done in 0 sec
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : Agents stepped/dead/born: 10.0/0/110 done in 0 sec
+2013-04-18 12:04:48 : 0/120 after 2 shove iterations
+2013-04-18 12:04:48 : Eroding 24 (323.115E3/463.638E-3 fg)
+2013-04-18 12:04:48 : Detachment done in 0 sec
+2013-04-18 12:04:48 : Simulating agents done in 0 sec
+2013-04-18 12:04:48 : System description finalized
+2013-04-18 12:04:48 : Computation time :0.0 minute(s) 
+ 	 -> Iter 1, Time: 1.0 achieved in 0.7 sec 
+
+2013-04-18 12:04:48 : Solving Diffusion-reaction done in 0 sec
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:48 : Doing pressure calculations.
+2013-04-18 12:04:49 : Agent location is not valid -> Killed
+2013-04-18 12:04:49 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:49 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:49 : Agent location is not valid -> Killed
+2013-04-18 12:04:49 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:49 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:49 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-18 12:04:49 : Agent location is not valid -> Killed
+2013-04-18 12:04:49 : Doing pressure calculations.
+2013-04-18 12:04:49 : Simulation failed. java.lang.IllegalStateException
+2013-04-18 12:04:49 : Wrote random number generator

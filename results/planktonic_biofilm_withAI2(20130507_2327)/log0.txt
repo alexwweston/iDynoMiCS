@@ -1,0 +1,364 @@
+2013-05-07 23:27:41 : Read in random number generator
+2013-05-07 23:27:42 : 		Using reaction-based method for bulk updates.
+2013-05-07 23:27:42 : Setting initial 0.0
+2013-05-07 23:27:42 : Setting initial 0.01
+2013-05-07 23:27:42 : Setting initial 0.0
+2013-05-07 23:27:42 : 		MyCOD (0)
+2013-05-07 23:27:42 : 		ai2 (1)
+2013-05-07 23:27:42 : 		pressure (2)
+2013-05-07 23:27:42 : 	 Reactions: 
+
+2013-05-07 23:27:42 : Reaction 0 is autocatalyic
+2013-05-07 23:27:42 : 		MyGrowthHeterotrophs (0)
+2013-05-07 23:27:42 : Reaction 0 is autocatalyic
+2013-05-07 23:27:42 : 		ai2Growth (1)
+2013-05-07 23:27:42 : 	 done
+2013-05-07 23:27:42 : 		ChemotaxPlank (0)
+2013-05-07 23:27:42 : 		MyHeterotroph (1)
+2013-05-07 23:27:42 : Agent time step is... 0.05
+2013-05-07 23:27:42 :  3675 grid elements, resolution: 8.0 micrometers
+2013-05-07 23:27:42 : Simulator uses Planktonics
+2013-05-07 23:27:42 : Guessing ChemotaxPlank initial mass at: 7539.84
+2013-05-07 23:27:42 : Guessing MyHeterotroph initial mass at: 7539.84
+2013-05-07 23:27:42 : 10.0 agents of species MyHeterotroph successfully created
+2013-05-07 23:27:43 : done done in 1 sec
+2013-05-07 23:27:44 : System description finalized
+2013-05-07 23:27:44 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/planktonic_biofilm_withAI2(20130507_2327)/planktonic_biofilm_withAI2.xml):OK
+2013-05-07 23:27:45 : Bulk update: Bulk dynamics 
+MyCOD [100E-4 -> 832.296E-5 (-436.031E-5) step 0.09544001335815283 ]
+ai2 [000E0 -> 114.896E-5 (298.728E-5) step 0.019230769230769232 ]
+
+2013-05-07 23:27:45 : Solving Diffusion-reaction done in 0 sec
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:45 : Agent location is not valid -> Killed
+2013-05-07 23:27:45 : Doing pressure calculations.
+2013-05-07 23:27:45 : Agents stepped/dead/born: 10.0/99/12 done in 0 sec
+2013-05-07 23:27:45 : 0/20 after 2 shove iterations
+2013-05-07 23:27:45 : Eroding 19 (212.505E3/119.72E3 fg)
+2013-05-07 23:27:45 : Detachment done in 0 sec
+2013-05-07 23:27:45 : Simulating agents done in 0 sec
+2013-05-07 23:27:45 : Computation time :0.0 minute(s) 
+ 	 -> Iter 1, Time: 0.5 achieved in 0.8 sec 
+
+2013-05-07 23:27:46 : Bulk update: Bulk dynamics 
+MyCOD [832.296E-5 -> 637.963E-5 (-505.264E-5) step 0.06313164714182201 ]
+ai2 [114.896E-5 -> 249.841E-5 (350.859E-5) step 0.035604220169975366 ]
+
+2013-05-07 23:27:46 : Solving Diffusion-reaction done in 0 sec
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : Agents stepped/dead/born: 16.0/199/14 done in 0 sec
+2013-05-07 23:27:46 : 0/28 after 2 shove iterations
+2013-05-07 23:27:46 : Eroding 36 (193.573E3/688.197E2 fg)
+2013-05-07 23:27:46 : Detachment done in 0 sec
+2013-05-07 23:27:46 : Simulating agents done in 0 sec
+2013-05-07 23:27:46 : System description finalized
+2013-05-07 23:27:46 : Computation time :0.0 minute(s) 
+ 	 -> Iter 2, Time: 1.0 achieved in 1.1 sec 
+
+2013-05-07 23:27:46 : Bulk update: Bulk dynamics 
+MyCOD [637.963E-5 -> 400.2E-5 (-618.185E-5) step 0.032368937691224293 ]
+ai2 [249.841E-5 -> 418.224E-5 (437.794E-5) step 0.047764927242571295 ]
+
+2013-05-07 23:27:46 : Solving Diffusion-reaction done in 0 sec
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Agent location is not valid -> Killed
+2013-05-07 23:27:46 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : Agents stepped/dead/born: 19.0/211/19 done in 0 sec
+2013-05-07 23:27:47 : 0/38 after 2 shove iterations
+2013-05-07 23:27:47 : Eroding 49 (157.082E3/688.552E2 fg)
+2013-05-07 23:27:47 : Detachment done in 0 sec
+2013-05-07 23:27:47 : Simulating agents done in 0 sec
+2013-05-07 23:27:47 : Computation time :0.0 minute(s) 
+ 	 -> Iter 3, Time: 1.5 achieved in 0.6 sec 
+
+2013-05-07 23:27:47 : Bulk update: Bulk dynamics 
+MyCOD [400.2E-5 -> 128.261E-5 (-707.041E-5) step 0.00907025525289431 ]
+ai2 [418.224E-5 -> 636.592E-5 (567.757E-5) step 0.056061973137140134 ]
+
+2013-05-07 23:27:47 : Solving Diffusion-reaction done in 0 sec
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : 1.0 agents of species ChemotaxPlank successfully created
+2013-05-07 23:27:47 : Agent location is not valid -> Killed
+2013-05-07 23:27:47 : Doing pressure calculations.
+2013-05-07 23:32:15 : Simulation failed. java.lang.ArrayIndexOutOfBoundsException: 35
+2013-05-07 23:32:15 : Wrote random number generator

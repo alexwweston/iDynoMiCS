@@ -1,0 +1,25 @@
+2013-04-14 17:33:36 : Read in random number generator
+2013-04-14 17:33:36 : Setting initial 0.01
+2013-04-14 17:33:36 : Setting initial 0.0
+2013-04-14 17:33:36 : 		MyCOD (0)
+2013-04-14 17:33:36 : 		pressure (1)
+2013-04-14 17:33:36 : 	 Reactions: 
+
+2013-04-14 17:33:36 : Reaction 0 is autocatalyic
+2013-04-14 17:33:36 : 		MyGrowthHeterotrophs (0)
+2013-04-14 17:33:36 : 	 done
+2013-04-14 17:33:36 : 		MyPlanktonic (0)
+2013-04-14 17:33:36 : 		MyHeterotroph (1)
+2013-04-14 17:33:36 : Agent time step is... 0.05
+2013-04-14 17:33:36 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-14 17:33:36 : Simulator uses Planktonics
+2013-04-14 17:33:36 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-14 17:33:36 : Guessing MyHeterotroph initial mass at: 7539.84
+2013-04-14 17:33:36 : 1.0 agents of species MyPlanktonic successfully created
+2013-04-14 17:33:36 : 10.0 agents of species MyHeterotroph successfully created
+2013-04-14 17:33:36 : done done in 0 sec
+2013-04-14 17:33:36 : System description finalized
+2013-04-14 17:33:36 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/planktonic_biofilm_timeres(20130414_1733)/planktonic_biofilm_timeres.xml):OK
+2013-04-14 17:33:37 : Solving Diffusion-reaction done in 0 sec
+2013-04-14 17:33:37 : Simulation failed. java.lang.ArrayIndexOutOfBoundsException: -1
+2013-04-14 17:33:37 : Wrote random number generator

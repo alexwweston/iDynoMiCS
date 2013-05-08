@@ -1,0 +1,260 @@
+2013-04-09 22:19:02 : Read in random number generator
+2013-04-09 22:19:02 : Setting initial 0.01
+2013-04-09 22:19:02 : Setting initial 0.0
+2013-04-09 22:19:02 : 		MyCOD (0)
+2013-04-09 22:19:02 : 		pressure (1)
+2013-04-09 22:19:02 : 	 Reactions: 
+
+2013-04-09 22:19:02 : Reaction 0 is autocatalyic
+2013-04-09 22:19:02 : 		MyGrowthHeterotrophs (0)
+2013-04-09 22:19:02 : 	 done
+2013-04-09 22:19:02 : 		MyPlanktonic (0)
+2013-04-09 22:19:02 : Agent time step is... 0.05
+2013-04-09 22:19:02 :  3675 grid elements, resolution: 8.0 micrometers
+2013-04-09 22:19:02 : Guessing MyPlanktonic initial mass at: 7539.84
+2013-04-09 22:19:02 : 10.0 agents of species MyPlanktonic successfully created
+2013-04-09 22:19:02 : done done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Initialization (/Users/alexandraweston/Desktop/Thesis/iDynoMiCS/results/simple_planktonic(20130409_2219)/simple_planktonic.xml):OK
+2013-04-09 22:19:03 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:03 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:03 : 10/10 after 251 shove iterations
+2013-04-09 22:19:03 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:03 : Detachment done in 0 sec
+2013-04-09 22:19:03 : Simulating agents done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Computation time :0.0 minute(s) 
+ 	 -> Iter 1, Time: 1.0 achieved in 0.3 sec 
+
+2013-04-09 22:19:03 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:03 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:03 : 10/10 after 251 shove iterations
+2013-04-09 22:19:03 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:03 : Detachment done in 0 sec
+2013-04-09 22:19:03 : Simulating agents done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Computation time :0.0 minute(s) 
+ 	 -> Iter 2, Time: 2.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:03 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:03 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:03 : 10/10 after 251 shove iterations
+2013-04-09 22:19:03 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:03 : Detachment done in 0 sec
+2013-04-09 22:19:03 : Simulating agents done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Computation time :0.0 minute(s) 
+ 	 -> Iter 3, Time: 3.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:03 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:03 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:03 : 10/10 after 251 shove iterations
+2013-04-09 22:19:03 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:03 : Detachment done in 0 sec
+2013-04-09 22:19:03 : Simulating agents done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Computation time :0.0 minute(s) 
+ 	 -> Iter 4, Time: 4.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:03 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:03 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:03 : 10/10 after 251 shove iterations
+2013-04-09 22:19:03 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:03 : Detachment done in 0 sec
+2013-04-09 22:19:03 : Simulating agents done in 0 sec
+2013-04-09 22:19:03 : System description finalized
+2013-04-09 22:19:03 : Computation time :0.0 minute(s) 
+ 	 -> Iter 5, Time: 5.0 achieved in 0.2 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 6, Time: 6.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 7, Time: 7.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 8, Time: 8.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 9, Time: 9.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 10, Time: 10.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 11, Time: 11.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 12, Time: 12.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:04 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:04 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:04 : 10/10 after 251 shove iterations
+2013-04-09 22:19:04 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:04 : Detachment done in 0 sec
+2013-04-09 22:19:04 : Simulating agents done in 0 sec
+2013-04-09 22:19:04 : System description finalized
+2013-04-09 22:19:04 : Computation time :0.0 minute(s) 
+ 	 -> Iter 13, Time: 13.0 achieved in 0.2 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 14, Time: 14.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 15, Time: 15.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 16, Time: 16.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 17, Time: 17.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 18, Time: 18.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 19, Time: 19.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:05 : System description finalized
+2013-04-09 22:19:05 : Computation time :0.0 minute(s) 
+ 	 -> Iter 20, Time: 20.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:05 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:05 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:05 : 10/10 after 251 shove iterations
+2013-04-09 22:19:05 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:05 : Detachment done in 0 sec
+2013-04-09 22:19:05 : Simulating agents done in 0 sec
+2013-04-09 22:19:06 : System description finalized
+2013-04-09 22:19:06 : Computation time :0.0 minute(s) 
+ 	 -> Iter 21, Time: 21.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:06 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:06 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:06 : 10/10 after 251 shove iterations
+2013-04-09 22:19:06 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:06 : Detachment done in 0 sec
+2013-04-09 22:19:06 : Simulating agents done in 0 sec
+2013-04-09 22:19:06 : System description finalized
+2013-04-09 22:19:06 : Computation time :0.1 minute(s) 
+ 	 -> Iter 22, Time: 22.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:06 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:06 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:06 : 10/10 after 251 shove iterations
+2013-04-09 22:19:06 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:06 : Detachment done in 0 sec
+2013-04-09 22:19:06 : Simulating agents done in 0 sec
+2013-04-09 22:19:06 : System description finalized
+2013-04-09 22:19:06 : Computation time :0.1 minute(s) 
+ 	 -> Iter 23, Time: 23.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:06 : Solving Diffusion-reaction done in 0 sec
+2013-04-09 22:19:06 : Agents stepped/dead/born: 10.0/0/0 done in 0 sec
+2013-04-09 22:19:06 : 10/10 after 251 shove iterations
+2013-04-09 22:19:06 : Eroding 0 (000E0/000E0 fg)
+2013-04-09 22:19:06 : Detachment done in 0 sec
+2013-04-09 22:19:06 : Simulating agents done in 0 sec
+2013-04-09 22:19:06 : System description finalized
+2013-04-09 22:19:06 : Computation time :0.1 minute(s) 
+ 	 -> Iter 24, Time: 24.0 achieved in 0.1 sec 
+
+2013-04-09 22:19:06 : Simulation succesfully achieved in 0.06 minutes.
+2013-04-09 22:19:06 : Wrote random number generator
