@@ -61,7 +61,7 @@ public class PlanktonicManager {
 
 	public PriorityQueue<Event> eventQueue;
 	
-	/*
+	/**
 	 * instantiate a PlanktonicManager
 	 * called by Simulator.createSpecies()
 	 * the root is set at planktonicManagement
@@ -153,7 +153,6 @@ public class PlanktonicManager {
 	 * updates the locations of all Planktonics. Uses eventlist to schedule planktonic 
 	 * arrival in between agent time steps based on PLANKTONICARRIVALRATE
 	 */
-	
 	public void runPlanktonicTimeSteps(){
 		try{
 			//add planktonic arrival events
