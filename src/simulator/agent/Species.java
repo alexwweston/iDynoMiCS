@@ -113,15 +113,14 @@ public class Species implements Serializable {
 			}
 		}
 
-		LogFile.writeLog(howMany+" agents of species "+speciesName+" successfully created");
+		LogFile.writeLog(howMany+" agents of species "+ speciesName +" successfully created");
 	}
 	
 	/**
 	 * @author alexandraweston
-	 * Called by PlanktonicManager to make a new biofilm agent of
-	 * a particular species when a planktonic "attaches" to the biofilm
-	 * @param _location : location of the planktonic agent and future biofilm
-	 * agent.
+	 * Make a new cell at the specified location. Used
+	 * by PlanktonicManager, BactLeaver
+	 * @param _location : location of the new cell
 	 */
 	public void createPop(ContinuousVector _location){
 		((LocatedAgent) _progenitor).createNewAgent(_location);

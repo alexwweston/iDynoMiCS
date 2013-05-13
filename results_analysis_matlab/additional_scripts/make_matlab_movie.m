@@ -3,7 +3,9 @@ function make_matlab_movie(nFrames,sName, c1, c2, fileName)
 % calls plotMix_t for each iterate up to nFrames,
 % generates .avi movie based on these plots
 if nargin < 1
-	help plotMix;
+    fprintf('make_matlab_movie(nFrames,sName, c1, c2, fileName)\n');
+    fprintf('calls plotMix_t for each iterate up to nFrames,\n');
+    fprintf('generates .avi movie based on these plots;\n');
 	return;
 end
 
@@ -18,8 +20,8 @@ if nargin < 4
 	return;
 end
 
-% Preallocate movie structure.
-mov(1:nFrames) = struct('cdata', [],...
+% Preallocate the avi movie structure.
+mov(1:nFrames/2) = struct('cdata', [],...
                         'colormap', []);
 
 % Create movie.

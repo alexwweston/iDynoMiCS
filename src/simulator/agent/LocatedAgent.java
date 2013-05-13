@@ -736,11 +736,13 @@ public abstract class LocatedAgent extends ActiveAgent implements Cloneable {
 	}
 
 	public void fitVolRateOnGrid(SpatialGrid aSpG) {
+		if(!this.isDead){
 		double value;
 		value = _netVolumeRate/aSpG.getVoxelVolume();
 		if (Double.isNaN(value) | Double.isInfinite(value))
 			value = 0;
 		aSpG.addValueAt(value, _location);
+		}
 	}
 
 	public void fitReacRateOnGrid(SpatialGrid aRateGrid, int reactionIndex) {

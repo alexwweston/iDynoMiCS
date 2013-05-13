@@ -24,6 +24,7 @@ import java.util.*;
 import simulator.agent.*;
 import simulator.agent.zoo.MultiEpiBac;
 import simulator.agent.zoo.Planktonic;
+import simulator.agent.zoo.BactLeaver;
 
 import simulator.detachment.*;
 import simulator.diffusionSolver.Solver_pressure;
@@ -40,6 +41,7 @@ import utils.ExtraMath;
 public class AgentContainer {
 
 	/* __________________ Properties __________________________ */
+	public boolean hasPlanktonicLeaving = false; //TODO: read in this parameter
 	int pressureCounter=0;
 	public Domain domain;
 	public Simulator mySim;
@@ -85,7 +87,7 @@ public class AgentContainer {
 	int shovIter, shovLimit, maxShoveIter, nMoved;
 	double tMoved, deltaMove;
 
-	private LevelSet _levelset;
+	protected LevelSet _levelset;
 
 	//sonia 23.11.09
 	//private double agentsToDilute;
@@ -235,19 +237,20 @@ public class AgentContainer {
 			if(aSim.usePlanktonics){
 				aSim.planktonicManager.runPlanktonicTimeSteps();
 			
-				//remove dead planktonics from the simulation, as they will not effect
-				//pressure
-				
+				//remove dead planktonics from the simulation
 				for(SpecialisedAgent aDeathAgent: _agentToKill){
 					if (aDeathAgent.isDead) {
+						//System.out.println("killing agent with location: " + ((LocatedAgent) aDeathAgent)._location.toString() + " and trace: " + aDeathAgent);
 						nDead++;
 						agentList.remove(aDeathAgent);
 						removeLocated(aDeathAgent);
 					}
 				}
+			
 				
 			}
-
+			
+			
 			
 			
 			/* Step all the agents */
@@ -255,10 +258,15 @@ public class AgentContainer {
 			if(Simulator.isChemostat){
 				//sonia: bypass bacteria movement according to pressure field
 			}else{
-				
 				followPressure();
 			}
 			
+
+			//set up border for planktonic leaving
+			if(hasPlanktonicLeaving){
+				//notifyBorderLeavers();
+
+			}
 			System.out.println("stepping non-planktonics");
 			for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = agentIter.next();
@@ -297,16 +305,12 @@ public class AgentContainer {
 			for(SpecialisedAgent aDeathAgent: _agentToKill){
 				if (aDeathAgent.isDead) {
 					nDead++;
-					
 					agentList.remove(aDeathAgent);
-					//@author alexandraweston: this remove was throwing a ConcurrentModificationException.
-					//It also seemed like bad design: The agent will already be removed in the line above.
-					//This extra remove here would remove the last element in the list, which we do NOT want to do.
-					//agentIter.remove();
 					removeLocated(aDeathAgent);
 				}
 			}
 
+			
 			// Apply moderate overlap relaxation
 
 			//sonia:chemostat
@@ -390,7 +394,7 @@ public class AgentContainer {
 
 			// Rebuild the border of the biofilm and compute erosion-time for the
 			// whole biofilm
-
+			
 			_levelset.refreshBorder(true, mySim);
 			_levelset.computeLevelSet(mySim);
 
@@ -422,6 +426,28 @@ public class AgentContainer {
 			aSim.continueRunning = false;
 	}
 
+	/**
+	 * Finds BactLeaver agents on the border and sets their
+	 * onBorder property to true
+	 */
+	private void notifyBorderLeavers() {
+		refreshGroupStatus();
+		// Rebuild the border of the biofilm 
+		_levelset.refreshBorder(true, mySim);
+		//got through border elements. If an element has biofilm leaving capability,
+		//set its onBorder property to true 
+		for (LocatedGroup aBorderElement : _levelset.getBorder()) {
+			
+			for (LocatedAgent aLoc:aBorderElement.group){
+				if(aLoc instanceof BactLeaver){
+					((BactLeaver)aLoc).onBorder = true;
+					
+				}
+				
+			}
+		}
+		
+	}
 
 	/**
 	 * Compute pressure field and apply resulting advection movement
@@ -549,7 +575,10 @@ public class AgentContainer {
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 			anAgent = agentIter.next();
 			
-			if (!(anAgent instanceof Planktonic)){
+			//TODO: test remove of Planktonic protection in this block
+			//update: seems to be fixing pressure problems I was experiencing--
+			//This appears to be the correct fix
+			//if (!(anAgent instanceof Planktonic)){
 			// Compute movement, deltaMove is relative movement
 				
 				deltaMove = anAgent.interact(MUTUAL, pushOnly, !isSynchro, gain);
@@ -557,7 +586,7 @@ public class AgentContainer {
 				tMoved += deltaMove;
 				nMoved += (deltaMove >= 0.1 * gain ? 1 : 0);
 				nMoved2 += (deltaMove >= 0.1 ? 1 : 0);
-			}
+			///}
 		}
 
 
@@ -567,7 +596,7 @@ public class AgentContainer {
 		for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 			// Compute movement, deltaMove is relative movement
 			anAgent = agentIter.next();
-			if (!(anAgent instanceof Planktonic)){
+			//if (!(anAgent instanceof Planktonic)){
 				deltaMove = anAgent.move();
 	
 				tMoved += deltaMove;
@@ -581,7 +610,7 @@ public class AgentContainer {
 					//added agentList.remove(anAgent);
 					//agentList.remove(anAgent);
 				}
-			}
+			//}
 		}
 		//sonia 26.04.2010
 		//commented out removeAllDead()
@@ -1642,7 +1671,7 @@ public class AgentContainer {
 
 	// Check that the nb grid cell has valid coordinates
 	public boolean isValid(ContinuousVector cC) {
-		return isValid(getGridPosition(cC));
+		return isValid(getGridPosition(cC)); //&&  domain.isInside(cC);
 	}
 
 

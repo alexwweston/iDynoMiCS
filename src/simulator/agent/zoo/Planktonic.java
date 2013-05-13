@@ -60,8 +60,8 @@ public class Planktonic extends Bacterium {
 	 */
 	protected void determineNewLoc() {
 		
-		//_movement.add((ExtraMath.getNormRand()-.5)*5,(ExtraMath.getNormRand()-.5)*5,0);
-		_movement.add(0,2,0);
+		_movement.add( (ExtraMath.getNormRand()-.5)*2, (ExtraMath.getNormRand()-.5)*2, 0);
+		//_movement.add(-10,5,0);
 		
 	}
 	/**
@@ -142,7 +142,7 @@ public class Planktonic extends Bacterium {
 		if (! _agentGrid.domain.isInside(_location)  ){ 
 			//die(true);
 			_agentGrid.mySim.planktonicManager.scheduleRemove(this);
-			System.out.println("removing planktonic from planktonicManager." +
+			System.out.println("removing planktonic " + this + " from planktonicManager." +
 								" Planktonic is out of bounds");
 			
 		}
@@ -166,14 +166,15 @@ public class Planktonic extends Bacterium {
 		//set the location at which the planktonic
 		//enters the system
 		entryLoc();
-		
-		
+
 		// Register on species and reaction grids
 		super.registerBirth();
 		//register in Planktonic Manager
 		_agentGrid.mySim.planktonicManager.registerPlanktonic(this);
 		
 	}
+	
+	
 	public void entryLoc(){
 		//remember here that the traditional meanings of x and y
 		//are switched in iDynoMiCS
@@ -216,6 +217,8 @@ public class Planktonic extends Bacterium {
 		
 	}
 	
+
+
 	
 
 }

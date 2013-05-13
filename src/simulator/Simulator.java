@@ -253,10 +253,11 @@ public class Simulator {
 			writeReport();
 			//@author alexandraweston: test locations
 			//agentGrid.agentList.next()
+			/*
 			ListIterator<SpecialisedAgent> agentIter;
 			LocatedAgent anAgent;
 			
-			/*
+			
 			for (agentIter = agentGrid.agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = (LocatedAgent) agentIter.next();
 				//System.out.println("Location of agent is:" + anAgent.getLocation());

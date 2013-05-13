@@ -101,7 +101,9 @@ public class PlanktonicManager {
 	}
 	
 	/** @author alexandraweston
-	 * add a planktonic to the manager's planktonicList. 
+	 * add a planktonic to the manager's planktonicList.
+	 * called by Planktonic.registerBirth() when a new planktonic is
+	 * created
 	 */
 	public void registerPlanktonic(Planktonic anAgent){
 	
@@ -182,7 +184,7 @@ public class PlanktonicManager {
 				currEvent= eventQueue.remove();
 				//System.out.println("time: " + currEvent.time);
 				if(currEvent.etype == eventType.ARRIVAL){
-					addPlanktonic();
+					addPlanktonic(planktonicName);
 				}
 				else{//etype is eventType.STEP
 					stepPlanktonics();
@@ -213,21 +215,21 @@ public class PlanktonicManager {
 	}
 	
 	/**
-	 * add a planktonic to the entire system
+	 * add a planktonic to the entire system.
+	 * actual starting location will be set by the planktonic itself
 	 */
-	public void addPlanktonic(){
+	public void addPlanktonic(String plankName){
 		//TODO generalize this for use with any protocol file
 		
 		try{
 		System.out.println("adding planktonic");
-		
-		XMLParser parser = mySim._protocolFile.getChild("planktonicInit").getChild("initArea");
+
 		int index = mySim.getSpeciesIndex(planktonicName);
-		//System.out.println("good");
+		
 		Species plankSpec = mySim.speciesList.get(index);
-		//System.out.println("good 2");
-		plankSpec.createPop(parser);
-		//System.out.println("good 3");
+		
+		plankSpec.createPop(new ContinuousVector(0,0,0));
+		
 		
 		}catch(Exception e){
 			System.out.println(" error in addPlanktonic " + e);

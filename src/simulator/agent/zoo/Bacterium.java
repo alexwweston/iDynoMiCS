@@ -6,10 +6,10 @@
 /** 
  * @since June 2006
  * @version 1.0
- * @author Andreas D�tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
+ * @author Andreas D���tsch (andreas.doetsch@helmholtz-hzi.de), Helmholtz Centre for Infection Research (Germany)
  * @author Laurent Lardon (lardonl@supagro.inra.fr), INRA, France
  * @author Brian Merkey (brim@env.dtu.dk, bvm@northwestern.edu), Department of Engineering Sciences and Applied Mathematics, Northwestern University (USA)
- * @author S�nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
+ * @author S���nia Martins (SCM808@bham.ac.uk), Centre for Systems Biology, University of Birmingham (UK)
  */
 
 package simulator.agent.zoo;
@@ -40,7 +40,7 @@ public class Bacterium extends LocatedAgent implements Cloneable {
 
 	/* __________________ CONSTRUCTOR ___________________________________ */
 
-	/*
+	/* 
 	 * Empty constructor ; called to build a progenitor
 	 */
 	public Bacterium() {

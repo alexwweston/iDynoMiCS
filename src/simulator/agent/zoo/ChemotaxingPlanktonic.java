@@ -13,7 +13,7 @@ import simulator.geometry.ContinuousVector;
 
 public class ChemotaxingPlanktonic extends Planktonic {
 	public enum Direction {UP, DOWN, LEFT, RIGHT};
-	boolean will_chemotax = true;
+	boolean will_chemotax = false;
 	String chemoeffector = "ai2";
 	boolean repellant = true;
 	/**

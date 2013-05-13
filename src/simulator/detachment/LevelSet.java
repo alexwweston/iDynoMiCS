@@ -7,7 +7,7 @@
 /**
  * @since June 2006
  * @version 1.0
- * @author  * @author João Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
+ * @author  * @author Jo��o Xavier (xavierj@mskcc.org), Memorial Sloan-Kettering Cancer Center (NY, USA)
  * 
  */
 
@@ -71,7 +71,9 @@ public abstract class LevelSet {
 		for (LocatedGroup aGroup : _shovingGrid) {
 
 			if (aGroup.isOutside) {
-				if (aGroup.status!=1) aGroup.erosionTime = INF;
+				//TODO: validate that removing status check still yeilds
+				//desired result @alexweston not sure how to do this
+				aGroup.erosionTime = INF;
 				continue;
 			}
 
@@ -147,7 +149,7 @@ public abstract class LevelSet {
 	 */
 	public void computeLevelSet(Simulator aSim) {
 
-		LocatedGroup trial;
+		LocatedGroup trial, addGroup;
 		int index;
 
 		while (_close.size()>0) {
@@ -158,19 +160,37 @@ public abstract class LevelSet {
 
 			// get all neighbours of trial that do not belong to _close
 			index = trial.gridIndex;
-
-			// X-axis neighbour
-			addToCloseAndUpdate(_shovingGrid[index].nbhGroup[0][1][1], aSim);
-			addToCloseAndUpdate(_shovingGrid[index].nbhGroup[2][1][1], aSim);
-
+			//@alexwweston: error checking to insure that neighbor groups are not 
+			//added if these are outside the simulation boundaries
+			// X-axis neighbours:
+			addGroup = _shovingGrid[index].nbhGroup[0][1][1];
+			if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);	
+			else{ addGroup.killAll();  }
+			
+			addGroup = _shovingGrid[index].nbhGroup[2][1][1];
+			if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);
+			else{ addGroup.killAll();  }
+			
 			// Y-axis neighbours:
-			addToCloseAndUpdate(_shovingGrid[index].nbhGroup[1][0][1], aSim);
-			addToCloseAndUpdate(_shovingGrid[index].nbhGroup[1][2][1], aSim);
+			addGroup = _shovingGrid[index].nbhGroup[1][0][1];
+			if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);
+			else{ addGroup.killAll();  }
+			
+			addGroup = _shovingGrid[index].nbhGroup[1][2][1];
+			if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);
+			else{ addGroup.killAll();  }
+			
 
 			// Z-axis neighbours:
 			if (_gridDim[2]>1) {
-				addToCloseAndUpdate(_shovingGrid[index].nbhGroup[1][1][0], aSim);
-				addToCloseAndUpdate(_shovingGrid[index].nbhGroup[1][1][2], aSim);
+				addGroup = _shovingGrid[index].nbhGroup[1][1][0];
+				if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);	
+				else{ addGroup.killAll();  }
+				
+				addGroup = _shovingGrid[index].nbhGroup[1][1][2];
+				if(!addGroup.isOutside)addToCloseAndUpdate(addGroup, aSim);	
+				else{ addGroup.killAll();  }
+
 			}
 		}
 	}
@@ -214,10 +234,13 @@ public abstract class LevelSet {
 	 * @return next levelset value
 	 */
 	private double computeTValue(LocatedGroup aGroup, Simulator aSim) {
+		
 		double nbMin, nbPlus;
 		double tX, tY, tZ;
 
 		// X (does not compute the bottom neighbour for lower points)
+		//LocatedGroup testGroup = aGroup.nbhGroup[0][1][1];
+		//if(testGroup != null ||!testGroup.isOutside){
 		nbMin = aGroup.nbhGroup[0][1][1].erosionTime;
 		nbPlus = aGroup.nbhGroup[2][1][1].erosionTime;
 		tX = Math.min(nbMin, nbPlus);
