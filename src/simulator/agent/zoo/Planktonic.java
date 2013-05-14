@@ -47,10 +47,12 @@ public class Planktonic extends Bacterium {
 		
 		//check for possibility that planktonic will attach
 		//to biofilm
+		
 		if(willAttach(1, attachmentRadius)){
 			attach();
 			
 		}
+		
 		
 	}
 	
@@ -208,7 +210,7 @@ public class Planktonic extends Bacterium {
 
 		ContinuousVector startLoc = new ContinuousVector(x_coord, y_coord, 0);
 		if( !_agentGrid.domain.isInside(startLoc) ){
-			System.err.println("ru-roh");
+			System.err.println("ru-roh: " + startLoc.toString());
 		}
 		this.setLocation(startLoc);
 		}catch(Exception e){

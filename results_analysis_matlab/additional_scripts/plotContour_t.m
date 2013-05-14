@@ -13,7 +13,7 @@ if nargin < 1
 	return;
 end
 
-fs = 24;
+fs = 14;
 lw = 3;
 
 

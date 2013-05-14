@@ -43,7 +43,7 @@ public class PlanktonicManager {
 	public double arrivalPerAgentTS;//arrivals/agentTimeStep
 	public double plankTSPerAgentTS;//number of planktonic time steps per agent time step
 	protected Species biofilmSpec;
-	String planktonicName = "ChemotaxPlank";
+	String planktonicName = "nonChemotaxPlank";
 	
 	// Container for all agents (even the non located ones)
 
@@ -89,7 +89,7 @@ public class PlanktonicManager {
 			
 			//TODO: associate the planktonics with a specific type of biofilm cell
 			//in the protocol file. Parse this here
-			int index = mySim.getSpeciesIndex("JoinedPlanktonic"); 
+			int index = mySim.getSpeciesIndex("JoinedPlanktonicLeaver"); 
 			biofilmSpec = mySim.speciesList.get(index);
 			
 		}catch(Exception e){

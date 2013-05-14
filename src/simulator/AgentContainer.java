@@ -264,7 +264,7 @@ public class AgentContainer {
 
 			//set up border for planktonic leaving
 			if(hasPlanktonicLeaving){
-				//notifyBorderLeavers();
+				notifyBorderLeavers();
 
 			}
 			System.out.println("stepping non-planktonics");
