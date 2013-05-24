@@ -481,13 +481,18 @@ public class SpatialGrid implements Serializable {
 		DiscreteVector dV = new DiscreteVector(cC,_reso);
 		return new ContinuousVector(diffX(dV), diffY(dV), diffY(dV));
 	}
+	
+	public ContinuousVector getGradient2DNoZ(ContinuousVector cC) {
+		DiscreteVector dV = new DiscreteVector(cC,_reso);
+		return new ContinuousVector(diffX(dV), diffY(dV), 0);
+	}
 
 	public ContinuousVector getGradient(DiscreteVector dV) {
 		return new ContinuousVector(diffX(dV), diffY(dV), diffZ(dV));
 	}
 
 	/**
-	 * Send the value on the padded grid at a given position
+	 * Return the value on the padded grid at a given position
 	 */
 	public double getValueAt(DiscreteVector dV) {
 		//sonia:chemostat

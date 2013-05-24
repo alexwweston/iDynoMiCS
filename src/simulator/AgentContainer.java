@@ -40,8 +40,7 @@ import utils.ExtraMath;
 
 public class AgentContainer {
 
-	/* __________________ Properties __________________________ */
-	public boolean hasPlanktonicLeaving = false; //TODO: read in this parameter
+	/* __________________ Properties __________________________ */ 
 	int pressureCounter=0;
 	public Domain domain;
 	public Simulator mySim;
@@ -263,10 +262,8 @@ public class AgentContainer {
 			
 
 			//set up border for planktonic leaving
-			if(hasPlanktonicLeaving){
-				notifyBorderLeavers();
+			notifyBorderLeavers();
 
-			}
 			System.out.println("stepping non-planktonics");
 			for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = agentIter.next();

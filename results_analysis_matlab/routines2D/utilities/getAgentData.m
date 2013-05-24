@@ -26,9 +26,10 @@ end
 if nargin < 3
 	skipeps = 0;
 end
-
+drkGreen = [ 0.2000,0.6000,0];
+purple = [ 0.75,0,0.75];
 % default colors that are assigned to each species
-acolor = {'r','b','g','y','m','c','o','k'};
+acolor = {'c','r', 'b', 'g',drkGreen, purple,'k','r'};
 
 % make lowercase for easier string comparisons
 type = lower(type);

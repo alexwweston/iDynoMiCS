@@ -637,8 +637,15 @@ public class Simulator {
 				System.out.print("\t Species progenitor: \n");
 				for (Element aSpeciesMarkUp : _protocolFile.buildSetMarkUp("species")) {
 					parser = new XMLParser(aSpeciesMarkUp);
-					getSpecies(parser.getAttribute("name")).getProgenitor().initFromProtocolFile(this,
-							parser);
+					SpecialisedAgent progen = getSpecies(parser.getAttribute("name")).getProgenitor();
+					progen.initFromProtocolFile(this,parser);
+					
+					//add planktonic progenetors to the PlanktonicManager
+					//facilitates multiple planktonic types
+					if(progen instanceof Planktonic){
+						planktonicManager.plankProgenList.add((Planktonic) progen);
+
+					}
 					//sonia: creating a list with the plasmid names which will be used afterwards to write the agentSum report
 
 					if(multiEpi){

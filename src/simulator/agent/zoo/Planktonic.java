@@ -5,13 +5,17 @@ package simulator.agent.zoo;
 
 import java.util.Iterator;
 
+import org.jdom.Element;
+
 import simulator.Simulator;
 import simulator.agent.LocatedAgent;
 import simulator.agent.SpecialisedAgent;
+import simulator.agent.Species;
 import simulator.geometry.ContinuousVector;
 import simulator.geometry.Domain;
 import utils.ExtraMath;
 import utils.LogFile;
+import utils.XMLParser;
 
 /**
  * @author alexandraweston
@@ -19,10 +23,37 @@ import utils.LogFile;
  */
 public class Planktonic extends Bacterium {
 	
+	/*
+	 * Parameters read in from protocol file
+	 */
+	public int arrivalRate;
+	boolean hasAttachment; //whether or not the species will attach if it nears the biofilm
+	public double distEachRun;
+	int attachmentRadius;
+	String attachmentSpecies; //indicates what species this becomes if
+							  //it joins the biofilm
+	
+	/**
+	 * Initialises the progenitor
+	 */
 
-	public double swimSpeed;//speed (um/s) at which the planktonic executes
-							//swim behavior //TODO: integrate parameter
-	public double attachmentRadius=3;//microns
+	public void initFromProtocolFile(Simulator aSim, XMLParser aSpeciesRoot) {
+		// Initialisation of Bacterium
+		super.initFromProtocolFile(aSim, aSpeciesRoot);
+		
+		//Planktonic-specific protocol parameters
+		hasAttachment  	=  	aSpeciesRoot.getParamBool("willAttach");
+		distEachRun 	= 	aSpeciesRoot.getParamDbl("distEachRun");
+		arrivalRate 	=	aSpeciesRoot.getParamInt("arrivalRate");
+		//attachment parameters
+		if(hasAttachment){
+			attachmentRadius = aSpeciesRoot.getParamInt("attachmentDistance");
+			attachmentSpecies = aSpeciesRoot.getParam("becomesBiofilmSpecies").trim();
+		}
+
+
+		init();
+	}
 
 
 	/**
@@ -48,7 +79,7 @@ public class Planktonic extends Bacterium {
 		//check for possibility that planktonic will attach
 		//to biofilm
 		
-		if(willAttach(1, attachmentRadius)){
+		if(hasAttachment && willAttach(1, attachmentRadius)){
 			attach();
 			
 		}
@@ -62,7 +93,15 @@ public class Planktonic extends Bacterium {
 	 */
 	protected void determineNewLoc() {
 		
-		_movement.add( (ExtraMath.getNormRand()-.5)*2, (ExtraMath.getNormRand()-.5)*2, 0);
+			//choose a random direction by getting a random angle
+		    double rads =  (ExtraMath.getUniRand() * Math.PI * 2);
+		    ContinuousVector direction = new ContinuousVector (Math.cos(rads), Math.sin(rads), 0);
+		    
+		    _movement = this.getScaledMove(_location, direction, ExtraMath.getUniRand()*distEachRun);
+		
+		
+		
+		//_movement.add( (ExtraMath.getNormRand())*2, (ExtraMath.getNormRand())*2, 0);
 		//_movement.add(-10,5,0);
 		
 	}
@@ -75,7 +114,7 @@ public class Planktonic extends Bacterium {
 		//1) Register new biofilm cell with this planktonic's 
 		//location //TODO: should other parameters carry over as well?
 		
-		_agentGrid.mySim.planktonicManager.newBiofilmCell(_location);
+		_agentGrid.mySim.planktonicManager.newBiofilmCell(_location, attachmentSpecies);
 		//2) Remove and kill this planktonic
 		_agentGrid.mySim.planktonicManager.scheduleRemove(this);
 		super.die(true);
@@ -217,6 +256,39 @@ public class Planktonic extends Bacterium {
 			System.out.println("error in Planktonic.entryLoc()");
 		}
 		
+	}
+	
+	/**
+	 * 
+	 * @param loc
+	 * @param direction
+	 * @param dist
+	 * @return location that is dist away from loc in the direction dir
+	 * 
+	 * Adds direction to loc, gets the Euclidean distance between these two points,
+	 * then multiplies newLoc by a scaler to get the correct distance in direction
+	 * dir 
+	 */
+	ContinuousVector getScaledMove(ContinuousVector loc, ContinuousVector dir, double dist){
+		//create directed move
+		double currDist, scaler;
+		ContinuousVector newLoc = new ContinuousVector();
+		newLoc.set(loc);
+		newLoc.add(dir);
+		//		(loc.x + dir.x), (loc.y + dir.y), (loc.z+dir.z) );
+		
+		//get euclidean distance between the two locations
+		currDist = newLoc.distance(loc);
+		
+		//compute scaler
+		scaler = dist/currDist;
+		dir.times(scaler);
+			//newLoc.times(scaler);
+			
+			//subtract distance from the location, to create
+			//compatibility with current move() method
+			//newLoc.subtract(loc);
+		return dir;
 	}
 	
 

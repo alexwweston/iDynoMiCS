@@ -117,7 +117,6 @@ end
 % make reaction name legible in plots
 fName = strrep(fName,'_','\_');
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % make the contour plot
 figure;
@@ -129,13 +128,23 @@ y = ((1:size(D,1)) - .5)*res;
 if strcmp(thetype,'interface')
 	contour(X,Y,D,[0 0],'-k','LineWidth',lw);
 else
-    [C,h] = contourf(X,Y,D);
+    s = warning('error','MATLAB:contourf:ConstantData');   
+    try
+         [C,h] = contourf(X,Y,D,15);
+    catch exception
+        %add a tiny amount to grid so we can still
+        %plot the contour
+        D(end,end,end)= .00000000000001;
+        [C,h] = contourf(X,Y,D,15);
+        fprintf('Applying slight adjustment to allow contour plot\n');
+        fprintf('When no actual solute exists\n');
+    end
+    warning(s);
+    [C,h] = contourf(X,Y,D,15);
     caxis([c1 c2]);
-    colormap Jet;
+    load('MyColormaps','mycmap');
+    set(gcf,'Colormap',mycmap);
     colorbar;
-   h2 = findobj(h,'Type','patch');
-   % adjust for transparency in contour
-   %  set(h2,'facealpha',1);
 end
 axis equal;
 xlim([min(x),max(x)]);

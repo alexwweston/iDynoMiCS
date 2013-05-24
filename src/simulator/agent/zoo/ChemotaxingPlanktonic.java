@@ -3,8 +3,11 @@
  */
 package simulator.agent.zoo;
 
+import simulator.Simulator;
 import simulator.SoluteGrid;
 import simulator.geometry.ContinuousVector;
+import utils.ExtraMath;
+import utils.XMLParser;
 
 /**
  * @author alexandraweston
@@ -12,16 +15,31 @@ import simulator.geometry.ContinuousVector;
  */
 
 public class ChemotaxingPlanktonic extends Planktonic {
-	public enum Direction {UP, DOWN, LEFT, RIGHT};
-	boolean will_chemotax = false;
-	String chemoeffector = "ai2";
-	boolean repellant = true;
+	
+	String chemoeffector;
+	boolean repellent;
+	double chem_threshold;//concentration of chemoeffector at which the agent moves chemotactically
+	SoluteGrid chemotaxSolute;
 	/**
 	 * 
 	 */
 	public ChemotaxingPlanktonic() {
 		// 
 		super();
+		
+	}
+
+	public void initFromProtocolFile(Simulator aSim, XMLParser aSpeciesRoot) {
+		// Initialisation of Bacterium
+		super.initFromProtocolFile(aSim, aSpeciesRoot);
+		
+		//Chemotaxis-specific protocol parameters
+		
+		chemoeffector =aSpeciesRoot.getParam("chemoeffector").trim();
+		repellent = aSpeciesRoot.getParamBool("repellent");
+		chem_threshold =aSpeciesRoot.getParamDbl("chem_threshold");
+
+		init();
 	}
 	
 	/**
@@ -29,8 +47,13 @@ public class ChemotaxingPlanktonic extends Planktonic {
 	 * implements chemotaxis
 	 */
 	protected void determineNewLoc() {
-		if(will_chemotax){
-			chemotax();
+		//get the specific soluteGrid
+		if(chemotaxSolute == null){
+			chemotaxSolute = this._agentGrid.mySim.soluteList[this._agentGrid.mySim.getSoluteIndex(chemoeffector)];
+		}
+		if(chemotaxSolute.getValueAt(_location)>chem_threshold){
+			
+				chemotax();
 		}
 		else{
 			super.determineNewLoc();
@@ -44,60 +67,25 @@ public class ChemotaxingPlanktonic extends Planktonic {
 	 * a solute
 	 */
 	private void chemotax() {
-		// TODO implement more complicated chemotaxis
+
 		
-		//get the specific soluteGrid
-		SoluteGrid chemotaxSolute = this._agentGrid.mySim.soluteList[this._agentGrid.mySim.getSoluteIndex(chemoeffector)];
-		//get the [solute] at adjacent grid points
-		ContinuousVector testLoc = this._location;
-		double curr= chemotaxSolute.getValueAt(testLoc);
-		testLoc.add(8,0,0);
-		double above = chemotaxSolute.getValueAt(testLoc);
-		testLoc.add(-16,0,0);
-		double below= chemotaxSolute.getValueAt(testLoc);
-		testLoc.add(8,-8,0);
-		double left= chemotaxSolute.getValueAt(testLoc);
-		testLoc.add(0,16,0);
-		double right= chemotaxSolute.getValueAt(testLoc);
+
 		
-		//_movement.add(0,2,0);
-		//move in the direction that has the smallest concentration. Else, move right
+		//1) get the gradient--this will be the direction the particle 
+		//should move in or away from
 		
-		Direction currDir = Direction.RIGHT;
-		if((curr>left)){
-			curr = left;
-			currDir = Direction.LEFT;
+		ContinuousVector direction = chemotaxSolute.getGradient2DNoZ(_location);
+		
+		if(repellent){
+			direction.turnAround();
 		}
-		if((curr>right)){
-			curr = right;
-			currDir = Direction.RIGHT;
-		}
-		if((curr>above)){
-			curr = above;
-			currDir = Direction.UP;
-		}
-		if((curr>below)){
-			curr = below;
-			currDir = Direction.DOWN;
-		}
-		switch(currDir){
-			case UP:
-				_movement.add(2,0,0);
-				//System.out.println("moving UP");
-				break;
-			case DOWN:
-				_movement.add(-2,0,0);
-				//System.out.println("moving DOWN");
-				break;
-			case LEFT:
-				_movement.add(0,-2,0);
-				//System.out.println("moving LEFT");
-				break;
-			case RIGHT:
-				_movement.add(0,2,0);
-				//System.out.println("moving RIGHT");
-				break;
-		}
+		
+		//2) scale the gradient set the scaled gradient as _movement
+		_movement = this.getScaledMove(_location, direction, distEachRun);
+		
+		
+		
+		
 		
 		
 	}

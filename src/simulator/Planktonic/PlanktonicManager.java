@@ -31,6 +31,7 @@ import utils.ExtraMath;
  * This class handles Planktonic steps and additions of planktonics to the system
  */
 public class PlanktonicManager {
+
 	public enum eventType {ARRIVAL, STEP};
 	
 /* -------------------- Properties ---------------------------- */	
@@ -39,16 +40,21 @@ public class PlanktonicManager {
 	public Simulator mySim;
 	public final double AGENTTIMESTEP;//(hr)
 	public final double PLANKTONICTIMESTEP;//(hr)
-	public final double PLANKTONICARRIVALRATE;//arrivals/hr
-	public double arrivalPerAgentTS;//arrivals/agentTimeStep
 	public double plankTSPerAgentTS;//number of planktonic time steps per agent time step
-	protected Species biofilmSpec;
-	String planktonicName = "nonChemotaxPlank";
 	
+	
+	
+	
+
 	// Container for all agents (even the non located ones)
 
 	public LinkedList<Planktonic> planktonicList ;
 	public ListIterator<Planktonic> planktonicIter;
+	
+	//Container to keep track of a planktonic species' particular properties
+	//needed by manager
+	public LinkedList<Planktonic> plankProgenList;
+	public ListIterator<Planktonic> plankProgenIter;
 	
 	// To avoid modifying the list whilst stepping through planktonics in
 	// stepPlanktonics(), add planktonics to this list and remove from 
@@ -69,8 +75,8 @@ public class PlanktonicManager {
 	public PlanktonicManager(Simulator aSimulator, XMLParser root, double agentTimeStep) throws Exception {
 		try{
 			//TODO read in vals from the protocol file. For now, just hard-code them
-			PLANKTONICTIMESTEP = .01;
-			PLANKTONICARRIVALRATE = 50;
+			PLANKTONICTIMESTEP = root.getParamDbl("planktonicTimeStep");
+			
 			
 			mySim = aSimulator;
 			AGENTTIMESTEP= agentTimeStep;
@@ -84,16 +90,14 @@ public class PlanktonicManager {
 			//set up eventQueue
 			eventQueue=new PriorityQueue<Event>();
 			
-			//determine how many planktonics will arrive per AGENTTIMESTEP
-			arrivalPerAgentTS = PLANKTONICARRIVALRATE*AGENTTIMESTEP;
-			
-			//TODO: associate the planktonics with a specific type of biofilm cell
-			//in the protocol file. Parse this here
-			int index = mySim.getSpeciesIndex("JoinedPlanktonicLeaver"); 
-			biofilmSpec = mySim.speciesList.get(index);
+
+			//for implementation of different arrival rates, start a list of the
+			//different planktonic species
+			plankProgenList = new LinkedList<Planktonic>();
+			planktonicIter = plankProgenList.listIterator();
 			
 		}catch(Exception e){
-			System.out.println(" error in PlnktonicManager constructor " + e);
+			System.out.println(" error in PlanktonicManager constructor " + e);
 			throw e;
 		}
 			
@@ -159,8 +163,16 @@ public class PlanktonicManager {
 		try{
 			//add planktonic arrival events
 			//time will be uniformly distributed between 0 and AGENTTIMESTEP
-			for(int i=0; i< arrivalPerAgentTS; i++){
+			/*for(int i=0; i< arrivalPerAgentTS; i++){
 				eventQueue.add(new Event(eventType.ARRIVAL, Math.random()*AGENTTIMESTEP));
+			}*/
+			Planktonic aPlanktonic;
+			for (plankProgenIter = plankProgenList.listIterator(); plankProgenIter.hasNext();) {
+				aPlanktonic = plankProgenIter.next();
+				for(int i=0; i< aPlanktonic.arrivalRate*AGENTTIMESTEP; i++){
+					
+					eventQueue.add(new Event(eventType.ARRIVAL, Math.random()*AGENTTIMESTEP, aPlanktonic.getSpecies().speciesName));
+				}
 			}
 			
 			Event currEvent;
@@ -184,7 +196,7 @@ public class PlanktonicManager {
 				currEvent= eventQueue.remove();
 				//System.out.println("time: " + currEvent.time);
 				if(currEvent.etype == eventType.ARRIVAL){
-					addPlanktonic(planktonicName);
+					addPlanktonic(currEvent.spec);
 				}
 				else{//etype is eventType.STEP
 					stepPlanktonics();
@@ -219,12 +231,11 @@ public class PlanktonicManager {
 	 * actual starting location will be set by the planktonic itself
 	 */
 	public void addPlanktonic(String plankName){
-		//TODO generalize this for use with any protocol file
 		
 		try{
 		System.out.println("adding planktonic");
 
-		int index = mySim.getSpeciesIndex(planktonicName);
+		int index = mySim.getSpeciesIndex(plankName);
 		
 		Species plankSpec = mySim.speciesList.get(index);
 		
@@ -243,10 +254,21 @@ public class PlanktonicManager {
 	 * @param _location is the current location of the plankonic cell that will attach
 	 */
 
-	public void newBiofilmCell(ContinuousVector _location) {
-		// for now, just get the MyBiofilm species and createPop() one of those.
+	public void newBiofilmCell(ContinuousVector _location, String species) {
+		// for now, handle multiSpecies by just toggling the joiner name
+		// here. Will need to be more robust moving forward
+		/*
+		if(toggle){//for t
+			species = "Joined_dLuxS";
+			toggle = false;
+		}
+		else{
+			toggle = true;
+		}
+		*/
+		int index = mySim.getSpeciesIndex(species); 
+		Species biofilmSpec = mySim.speciesList.get(index);
 		biofilmSpec.createPop(_location);
-		
 		
 		
 	}
@@ -258,10 +280,19 @@ public class PlanktonicManager {
 	private class Event implements Comparable<Event>{
 		public eventType etype;
 		public double time;
+		public String spec; //used for arrival events
 		
 		public Event(eventType type, double t){
 			etype = type;
 			time =t;
+			spec = null;
+			
+		}
+		
+		public Event(eventType type, double t, String s){
+			etype = type;
+			time =t;
+			spec = s;
 			
 		}
 
