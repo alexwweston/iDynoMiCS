@@ -1,0 +1,12 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="plank_tlpB" header="population,mass,growthRate" >
+21.0,152560.6695794384,0.0</species>
+<species name="JoinedtlpB" header="population,mass,growthRate" >
+395.0,3806373.0783699104,273625.57925183896</species>
+<species name="tlpB" header="population,mass,growthRate" >
+711.0,7143280.196030443,194291.79397048044</species>
+
+</simulation>
+</idynomics>

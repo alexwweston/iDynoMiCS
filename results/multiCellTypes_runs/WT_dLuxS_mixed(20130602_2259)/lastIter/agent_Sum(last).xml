@@ -1,0 +1,18 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="plank_dLuxS" header="population,mass,growthRate" >
+8.0,35115.18869032758,0.0</species>
+<species name="WTPlank" header="population,mass,growthRate" >
+10.0,54578.57823828485,0.0</species>
+<species name="JoinedWT" header="population,mass,growthRate" >
+24.0,249419.90521912064,24127.817348816767</species>
+<species name="WT" header="population,mass,growthRate" >
+273.0,2792421.813386171,126739.2997933428</species>
+<species name="JoinedLuxS" header="population,mass,growthRate" >
+170.0,1681468.876112266,131777.78075913456</species>
+<species name="dLuxS" header="population,mass,growthRate" >
+491.0,5058739.331893415,237523.0697211912</species>
+
+</simulation>
+</idynomics>

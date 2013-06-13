@@ -1,0 +1,12 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="ChemotaxPlank" header="population,mass,growthRate" >
+11.0,74396.85865393197,0.0</species>
+<species name="JoinedWT" header="population,mass,growthRate" >
+0.0,0.0,0.0</species>
+<species name="WT" header="population,mass,growthRate" >
+419.0,4290260.292847246,649762.0581218352</species>
+
+</simulation>
+</idynomics>

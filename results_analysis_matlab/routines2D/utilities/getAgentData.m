@@ -26,10 +26,15 @@ end
 if nargin < 3
 	skipeps = 0;
 end
+%Tip: find more color values to specify like drkGreen
+%by typing uisetcolor in the matlab prompt. This opens a
+%tool to help with determining the RGB values for colors
 drkGreen = [ 0.2000,0.6000,0];
 purple = [ 0.75,0,0.75];
+periwinkle = [0.8000, 0.8000, 1.0000];
+pink = [1.0000    0.4000    0.6000];
 % default colors that are assigned to each species
-acolor = {'c','r', 'b', 'g',drkGreen, purple,'k','r'};
+acolor = {'c','r', 'b', 'g',drkGreen, purple,'k','m', 'y', periwinkle, pink};
 
 % make lowercase for easier string comparisons
 type = lower(type);

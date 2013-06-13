@@ -1,0 +1,12 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="plank_dLuxS" header="population,mass,growthRate" >
+13.0,93584.50714187493,0.0</species>
+<species name="JoinedLuxS" header="population,mass,growthRate" >
+374.0,3340741.3397703515,314095.31979742006</species>
+<species name="dLuxS" header="population,mass,growthRate" >
+653.0,6594213.269821277,210925.39136688565</species>
+
+</simulation>
+</idynomics>

@@ -1,0 +1,18 @@
+<idynomics>
+ <simulation iterate="48" time="24.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="plank_tlpB" header="population,mass,growthRate" >
+19.0,116718.4368951562,0.0</species>
+<species name="ChemotaxPlank" header="population,mass,growthRate" >
+1.0,0.0,0.0</species>
+<species name="JoinedWT" header="population,mass,growthRate" >
+14.0,127323.51475754142,-88.79323414947093</species>
+<species name="JoinedtlpB" header="population,mass,growthRate" >
+557.0,5784851.31364154,423713.50316433294</species>
+<species name="tlpB" header="population,mass,growthRate" >
+363.0,3688427.533077918,97169.4577045854</species>
+<species name="WT" header="population,mass,growthRate" >
+29.0,301943.07576861064,319.9181788682928</species>
+
+</simulation>
+</idynomics>

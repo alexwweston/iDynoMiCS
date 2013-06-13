@@ -1,0 +1,2402 @@
+2013-05-28 23:22:07 : Read in random number generator
+2013-05-28 23:22:07 : Setting initial 0.0
+2013-05-28 23:22:07 : Setting initial 0.01
+2013-05-28 23:22:07 : Setting initial 0.0
+2013-05-28 23:22:07 : 		MyCOD (0)
+2013-05-28 23:22:07 : 		ai2 (1)
+2013-05-28 23:22:07 : 		pressure (2)
+2013-05-28 23:22:07 : 	 Reactions: 
+
+2013-05-28 23:22:07 : Reaction 0 is autocatalyic
+2013-05-28 23:22:07 : 		MyGrowthHeterotrophs (0)
+2013-05-28 23:22:07 : Reaction 0 is autocatalyic
+2013-05-28 23:22:07 : 		ai2Growth (1)
+2013-05-28 23:22:07 : 	 done
+2013-05-28 23:22:07 : 		plank_tlpB (0)
+2013-05-28 23:22:07 : 		JoinedtlpB (1)
+2013-05-28 23:22:07 : 		tlpB (2)
+2013-05-28 23:22:07 : Agent time step is... 0.05
+2013-05-28 23:22:07 :  3675 grid elements, resolution: 8.0 micrometers
+2013-05-28 23:22:07 : Simulator uses Planktonics
+2013-05-28 23:22:07 : Guessing plank_tlpB initial mass at: 7539.84
+2013-05-28 23:22:07 : Guessing JoinedtlpB initial mass at: 7539.84
+2013-05-28 23:22:07 : Guessing tlpB initial mass at: 7539.84
+2013-05-28 23:22:07 : 10.0 agents of species tlpB successfully created
+2013-05-28 23:22:07 : done done in 0 sec
+2013-05-28 23:22:08 : System description finalized
+2013-05-28 23:22:08 : Initialization (../results/dtlpB(20130528_2322)/dtlpB.xml):OK
+2013-05-28 23:22:08 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agents stepped/dead/born: 10.0/342/13 done in 0 sec
+2013-05-28 23:22:08 : 0/23 after 2 shove iterations
+2013-05-28 23:22:08 : Eroding 18 (206.117E3/111.776E2 fg)
+2013-05-28 23:22:08 : Detachment done in 0 sec
+2013-05-28 23:22:08 : Simulating agents done in 0 sec
+2013-05-28 23:22:08 : Computation time :0.0 minute(s) 
+ 	 -> Iter 1, Time: 0.5 achieved in 0.6 sec 
+
+2013-05-28 23:22:08 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Agent location is not valid -> Killed
+2013-05-28 23:22:08 : Doing pressure calculations.
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agents stepped/dead/born: 21.0/282/12 done in 0 sec
+2013-05-28 23:22:09 : 0/33 after 2 shove iterations
+2013-05-28 23:22:09 : Eroding 36 (208.32E3/115.908E2 fg)
+2013-05-28 23:22:09 : Detachment done in 0 sec
+2013-05-28 23:22:09 : Simulating agents done in 0 sec
+2013-05-28 23:22:09 : System description finalized
+2013-05-28 23:22:09 : Computation time :0.0 minute(s) 
+ 	 -> Iter 2, Time: 1.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:09 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:09 : Agents stepped/dead/born: 28.0/424/12 done in 0 sec
+2013-05-28 23:22:09 : 0/40 after 2 shove iterations
+2013-05-28 23:22:09 : Eroding 46 (120.02E3/000E0 fg)
+2013-05-28 23:22:09 : Detachment done in 0 sec
+2013-05-28 23:22:09 : Simulating agents done in 0 sec
+2013-05-28 23:22:09 : Computation time :0.0 minute(s) 
+ 	 -> Iter 3, Time: 1.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:09 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Agent location is not valid -> Killed
+2013-05-28 23:22:09 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agents stepped/dead/born: 40.0/330/15 done in 0 sec
+2013-05-28 23:22:10 : 0/55 after 2 shove iterations
+2013-05-28 23:22:10 : Eroding 58 (146.44E3/133.546E2 fg)
+2013-05-28 23:22:10 : Detachment done in 0 sec
+2013-05-28 23:22:10 : Simulating agents done in 0 sec
+2013-05-28 23:22:10 : System description finalized
+2013-05-28 23:22:10 : Computation time :0.0 minute(s) 
+ 	 -> Iter 4, Time: 2.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:10 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agents stepped/dead/born: 55.0/384/27 done in 0 sec
+2013-05-28 23:22:10 : 1/82 after 2 shove iterations
+2013-05-28 23:22:10 : Eroding 76 (224.493E3/000E0 fg)
+2013-05-28 23:22:10 : Detachment done in 0 sec
+2013-05-28 23:22:10 : Simulating agents done in 0 sec
+2013-05-28 23:22:10 : Computation time :0.0 minute(s) 
+ 	 -> Iter 5, Time: 2.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:10 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Agent location is not valid -> Killed
+2013-05-28 23:22:10 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agents stepped/dead/born: 80.0/362/18 done in 0 sec
+2013-05-28 23:22:11 : 0/98 after 2 shove iterations
+2013-05-28 23:22:11 : Eroding 93 (227.708E3/117.587E2 fg)
+2013-05-28 23:22:11 : Detachment done in 0 sec
+2013-05-28 23:22:11 : Simulating agents done in 0 sec
+2013-05-28 23:22:11 : System description finalized
+2013-05-28 23:22:11 : Computation time :0.1 minute(s) 
+ 	 -> Iter 6, Time: 3.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:11 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agents stepped/dead/born: 96.0/372/28 done in 0 sec
+2013-05-28 23:22:11 : 1/124 after 2 shove iterations
+2013-05-28 23:22:11 : Eroding 108 (200.77E3/000E0 fg)
+2013-05-28 23:22:11 : Detachment done in 0 sec
+2013-05-28 23:22:11 : Simulating agents done in 0 sec
+2013-05-28 23:22:11 : Computation time :0.1 minute(s) 
+ 	 -> Iter 7, Time: 3.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:11 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Agent location is not valid -> Killed
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:11 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agents stepped/dead/born: 121.0/334/39 done in 0 sec
+2013-05-28 23:22:12 : 3/160 after 3 shove iterations
+2013-05-28 23:22:12 : Eroding 127 (234.74E3/114.197E2 fg)
+2013-05-28 23:22:12 : Detachment done in 0 sec
+2013-05-28 23:22:12 : Simulating agents done in 0 sec
+2013-05-28 23:22:12 : System description finalized
+2013-05-28 23:22:12 : Computation time :0.1 minute(s) 
+ 	 -> Iter 8, Time: 4.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:12 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agents stepped/dead/born: 155.0/328/21 done in 0 sec
+2013-05-28 23:22:12 : 0/176 after 2 shove iterations
+2013-05-28 23:22:12 : Eroding 138 (163.238E3/108.502E2 fg)
+2013-05-28 23:22:12 : Detachment done in 0 sec
+2013-05-28 23:22:12 : Simulating agents done in 0 sec
+2013-05-28 23:22:12 : Computation time :0.1 minute(s) 
+ 	 -> Iter 9, Time: 4.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:12 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Doing pressure calculations.
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:12 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agents stepped/dead/born: 174.0/384/37 done in 0 sec
+2013-05-28 23:22:13 : 2/211 after 2 shove iterations
+2013-05-28 23:22:13 : Eroding 154 (222.414E3/000E0 fg)
+2013-05-28 23:22:13 : Detachment done in 0 sec
+2013-05-28 23:22:13 : Simulating agents done in 0 sec
+2013-05-28 23:22:13 : System description finalized
+2013-05-28 23:22:13 : Computation time :0.1 minute(s) 
+ 	 -> Iter 10, Time: 5.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:13 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agents stepped/dead/born: 208.0/452/40 done in 0 sec
+2013-05-28 23:22:13 : 1/248 after 2 shove iterations
+2013-05-28 23:22:13 : Eroding 168 (190.506E3/000E0 fg)
+2013-05-28 23:22:13 : Detachment done in 0 sec
+2013-05-28 23:22:13 : Simulating agents done in 0 sec
+2013-05-28 23:22:13 : Computation time :0.1 minute(s) 
+ 	 -> Iter 11, Time: 5.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:13 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Agent location is not valid -> Killed
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:13 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agents stepped/dead/born: 246.0/428/33 done in 0 sec
+2013-05-28 23:22:14 : 3/279 after 2 shove iterations
+2013-05-28 23:22:14 : Eroding 181 (193.484E3/000E0 fg)
+2013-05-28 23:22:14 : Detachment done in 0 sec
+2013-05-28 23:22:14 : Simulating agents done in 0 sec
+2013-05-28 23:22:14 : System description finalized
+2013-05-28 23:22:14 : Computation time :0.1 minute(s) 
+ 	 -> Iter 12, Time: 6.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:14 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agents stepped/dead/born: 278.0/376/19 done in 0 sec
+2013-05-28 23:22:14 : 1/297 after 2 shove iterations
+2013-05-28 23:22:14 : Eroding 195 (193.353E3/000E0 fg)
+2013-05-28 23:22:14 : Detachment done in 0 sec
+2013-05-28 23:22:14 : Simulating agents done in 0 sec
+2013-05-28 23:22:14 : Computation time :0.1 minute(s) 
+ 	 -> Iter 13, Time: 6.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:14 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Agent location is not valid -> Killed
+2013-05-28 23:22:14 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agents stepped/dead/born: 295.0/438/16 done in 0 sec
+2013-05-28 23:22:15 : 1/311 after 2 shove iterations
+2013-05-28 23:22:15 : Eroding 216 (284.654E3/000E0 fg)
+2013-05-28 23:22:15 : Detachment done in 0 sec
+2013-05-28 23:22:15 : Simulating agents done in 0 sec
+2013-05-28 23:22:15 : System description finalized
+2013-05-28 23:22:15 : Computation time :0.1 minute(s) 
+ 	 -> Iter 14, Time: 7.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:15 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agents stepped/dead/born: 308.0/392/23 done in 0 sec
+2013-05-28 23:22:15 : 0/331 after 2 shove iterations
+2013-05-28 23:22:15 : Eroding 235 (250.341E3/114.256E2 fg)
+2013-05-28 23:22:15 : Detachment done in 0 sec
+2013-05-28 23:22:15 : Simulating agents done in 0 sec
+2013-05-28 23:22:15 : Computation time :0.1 minute(s) 
+ 	 -> Iter 15, Time: 7.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:15 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Agent location is not valid -> Killed
+2013-05-28 23:22:15 : Doing pressure calculations.
+2013-05-28 23:22:15 : Agents stepped/dead/born: 327.0/432/9 done in 0 sec
+2013-05-28 23:22:15 : 5/336 after 2 shove iterations
+2013-05-28 23:22:15 : Eroding 249 (209.279E3/000E0 fg)
+2013-05-28 23:22:15 : Detachment done in 0 sec
+2013-05-28 23:22:15 : Simulating agents done in 0 sec
+2013-05-28 23:22:16 : System description finalized
+2013-05-28 23:22:16 : Computation time :0.1 minute(s) 
+ 	 -> Iter 16, Time: 8.0 achieved in 0.5 sec 
+
+2013-05-28 23:22:16 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agents stepped/dead/born: 336.0/372/35 done in 0 sec
+2013-05-28 23:22:16 : 3/371 after 2 shove iterations
+2013-05-28 23:22:16 : Eroding 267 (256.702E3/000E0 fg)
+2013-05-28 23:22:16 : Detachment done in 0 sec
+2013-05-28 23:22:16 : Simulating agents done in 0 sec
+2013-05-28 23:22:16 : Computation time :0.1 minute(s) 
+ 	 -> Iter 17, Time: 8.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:16 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Agent location is not valid -> Killed
+2013-05-28 23:22:16 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agents stepped/dead/born: 369.0/402/32 done in 0 sec
+2013-05-28 23:22:17 : 6/401 after 2 shove iterations
+2013-05-28 23:22:17 : Eroding 287 (279.053E3/210.955E2 fg)
+2013-05-28 23:22:17 : Detachment done in 0 sec
+2013-05-28 23:22:17 : Simulating agents done in 0 sec
+2013-05-28 23:22:17 : System description finalized
+2013-05-28 23:22:17 : Computation time :0.2 minute(s) 
+ 	 -> Iter 18, Time: 9.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:17 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agents stepped/dead/born: 397.0/424/32 done in 0 sec
+2013-05-28 23:22:17 : 4/429 after 2 shove iterations
+2013-05-28 23:22:17 : Eroding 303 (227.76E3/000E0 fg)
+2013-05-28 23:22:17 : Detachment done in 0 sec
+2013-05-28 23:22:17 : Simulating agents done in 0 sec
+2013-05-28 23:22:17 : Computation time :0.2 minute(s) 
+ 	 -> Iter 19, Time: 9.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:17 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:17 : Agent location is not valid -> Killed
+2013-05-28 23:22:17 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agents stepped/dead/born: 424.0/420/27 done in 0 sec
+2013-05-28 23:22:18 : 1/451 after 2 shove iterations
+2013-05-28 23:22:18 : Eroding 319 (247.226E3/982.969E1 fg)
+2013-05-28 23:22:18 : Detachment done in 0 sec
+2013-05-28 23:22:18 : Simulating agents done in 0 sec
+2013-05-28 23:22:18 : System description finalized
+2013-05-28 23:22:18 : Computation time :0.2 minute(s) 
+ 	 -> Iter 20, Time: 10.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:18 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Agent location is not valid -> Killed
+2013-05-28 23:22:18 : Doing pressure calculations.
+2013-05-28 23:22:18 : Agents stepped/dead/born: 449.0/338/29 done in 0 sec
+2013-05-28 23:22:18 : 3/478 after 2 shove iterations
+2013-05-28 23:22:18 : Eroding 334 (234.007E3/000E0 fg)
+2013-05-28 23:22:18 : Detachment done in 0 sec
+2013-05-28 23:22:18 : Simulating agents done in 0 sec
+2013-05-28 23:22:18 : Computation time :0.2 minute(s) 
+ 	 -> Iter 21, Time: 10.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:19 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agents stepped/dead/born: 475.0/412/29 done in 0 sec
+2013-05-28 23:22:19 : 2/504 after 2 shove iterations
+2013-05-28 23:22:19 : Eroding 349 (236.911E3/115.876E2 fg)
+2013-05-28 23:22:19 : Detachment done in 0 sec
+2013-05-28 23:22:19 : Simulating agents done in 0 sec
+2013-05-28 23:22:19 : System description finalized
+2013-05-28 23:22:19 : Computation time :0.2 minute(s) 
+ 	 -> Iter 22, Time: 11.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:19 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Agent location is not valid -> Killed
+2013-05-28 23:22:19 : Doing pressure calculations.
+2013-05-28 23:22:19 : Agents stepped/dead/born: 500.0/436/35 done in 0 sec
+2013-05-28 23:22:19 : 6/535 after 2 shove iterations
+2013-05-28 23:22:19 : Eroding 368 (274.499E3/000E0 fg)
+2013-05-28 23:22:19 : Detachment done in 0 sec
+2013-05-28 23:22:19 : Simulating agents done in 0 sec
+2013-05-28 23:22:19 : Computation time :0.2 minute(s) 
+ 	 -> Iter 23, Time: 11.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:20 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agents stepped/dead/born: 532.0/358/28 done in 0 sec
+2013-05-28 23:22:20 : 12/560 after 2 shove iterations
+2013-05-28 23:22:20 : Eroding 379 (208.509E3/226.991E2 fg)
+2013-05-28 23:22:20 : Detachment done in 0 sec
+2013-05-28 23:22:20 : Simulating agents done in 0 sec
+2013-05-28 23:22:20 : System description finalized
+2013-05-28 23:22:20 : Computation time :0.2 minute(s) 
+ 	 -> Iter 24, Time: 12.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:20 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Agent location is not valid -> Killed
+2013-05-28 23:22:20 : Doing pressure calculations.
+2013-05-28 23:22:20 : Agents stepped/dead/born: 558.0/370/17 done in 0 sec
+2013-05-28 23:22:20 : 8/575 after 2 shove iterations
+2013-05-28 23:22:20 : Eroding 402 (320.141E3/000E0 fg)
+2013-05-28 23:22:20 : Detachment done in 0 sec
+2013-05-28 23:22:20 : Simulating agents done in 0 sec
+2013-05-28 23:22:20 : Computation time :0.2 minute(s) 
+ 	 -> Iter 25, Time: 12.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:21 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agents stepped/dead/born: 574.0/290/27 done in 0 sec
+2013-05-28 23:22:21 : 11/601 after 2 shove iterations
+2013-05-28 23:22:21 : Eroding 416 (205.773E3/105.133E2 fg)
+2013-05-28 23:22:21 : Detachment done in 0 sec
+2013-05-28 23:22:21 : Simulating agents done in 0 sec
+2013-05-28 23:22:21 : System description finalized
+2013-05-28 23:22:21 : Computation time :0.2 minute(s) 
+ 	 -> Iter 26, Time: 13.0 achieved in 0.7 sec 
+
+2013-05-28 23:22:21 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Agent location is not valid -> Killed
+2013-05-28 23:22:21 : Doing pressure calculations.
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agents stepped/dead/born: 598.0/366/39 done in 0 sec
+2013-05-28 23:22:22 : 10/637 after 2 shove iterations
+2013-05-28 23:22:22 : Eroding 431 (235.285E3/124.827E2 fg)
+2013-05-28 23:22:22 : Detachment done in 0 sec
+2013-05-28 23:22:22 : Simulating agents done in 0 sec
+2013-05-28 23:22:22 : Computation time :0.2 minute(s) 
+ 	 -> Iter 27, Time: 13.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:22 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Agent location is not valid -> Killed
+2013-05-28 23:22:22 : Doing pressure calculations.
+2013-05-28 23:22:22 : Agents stepped/dead/born: 631.0/308/25 done in 0 sec
+2013-05-28 23:22:22 : 8/656 after 2 shove iterations
+2013-05-28 23:22:22 : Eroding 459 (369.223E3/459.723E2 fg)
+2013-05-28 23:22:22 : Detachment done in 0 sec
+2013-05-28 23:22:22 : Simulating agents done in 0 sec
+2013-05-28 23:22:22 : System description finalized
+2013-05-28 23:22:22 : Computation time :0.2 minute(s) 
+ 	 -> Iter 28, Time: 14.0 achieved in 0.6 sec 
+
+2013-05-28 23:22:23 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agents stepped/dead/born: 649.0/442/18 done in 0 sec
+2013-05-28 23:22:23 : 7/667 after 2 shove iterations
+2013-05-28 23:22:23 : Eroding 475 (252.29E3/000E0 fg)
+2013-05-28 23:22:23 : Detachment done in 0 sec
+2013-05-28 23:22:23 : Simulating agents done in 0 sec
+2013-05-28 23:22:23 : Computation time :0.3 minute(s) 
+ 	 -> Iter 29, Time: 14.5 achieved in 0.5 sec 
+
+2013-05-28 23:22:23 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Agent location is not valid -> Killed
+2013-05-28 23:22:23 : Doing pressure calculations.
+2013-05-28 23:22:23 : Agents stepped/dead/born: 663.0/408/30 done in 0 sec
+2013-05-28 23:22:23 : 15/693 after 2 shove iterations
+2013-05-28 23:22:23 : Eroding 485 (183.045E3/000E0 fg)
+2013-05-28 23:22:23 : Detachment done in 0 sec
+2013-05-28 23:22:23 : Simulating agents done in 0 sec
+2013-05-28 23:22:23 : System description finalized
+2013-05-28 23:22:23 : Computation time :0.3 minute(s) 
+ 	 -> Iter 30, Time: 15.0 achieved in 0.7 sec 
+
+2013-05-28 23:22:24 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agents stepped/dead/born: 691.0/426/29 done in 0 sec
+2013-05-28 23:22:24 : 11/720 after 2 shove iterations
+2013-05-28 23:22:24 : Eroding 497 (196.923E3/000E0 fg)
+2013-05-28 23:22:24 : Detachment done in 0 sec
+2013-05-28 23:22:24 : Simulating agents done in 0 sec
+2013-05-28 23:22:24 : Computation time :0.3 minute(s) 
+ 	 -> Iter 31, Time: 15.5 achieved in 0.6 sec 
+
+2013-05-28 23:22:24 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Agent location is not valid -> Killed
+2013-05-28 23:22:24 : Doing pressure calculations.
+2013-05-28 23:22:24 : Agents stepped/dead/born: 718.0/332/26 done in 0 sec
+2013-05-28 23:22:24 : 8/744 after 2 shove iterations
+2013-05-28 23:22:24 : Eroding 514 (259.547E3/240.503E2 fg)
+2013-05-28 23:22:24 : Detachment done in 0 sec
+2013-05-28 23:22:24 : Simulating agents done in 0 sec
+2013-05-28 23:22:25 : System description finalized
+2013-05-28 23:22:25 : Computation time :0.3 minute(s) 
+ 	 -> Iter 32, Time: 16.0 achieved in 0.7 sec 
+
+2013-05-28 23:22:25 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Agent location is not valid -> Killed
+2013-05-28 23:22:25 : Doing pressure calculations.
+2013-05-28 23:22:25 : Agents stepped/dead/born: 742.0/350/28 done in 0 sec
+2013-05-28 23:22:25 : 15/770 after 2 shove iterations
+2013-05-28 23:22:25 : Eroding 527 (211.716E3/224.067E2 fg)
+2013-05-28 23:22:25 : Detachment done in 0 sec
+2013-05-28 23:22:25 : Simulating agents done in 0 sec
+2013-05-28 23:22:25 : Computation time :0.3 minute(s) 
+ 	 -> Iter 33, Time: 16.5 achieved in 0.6 sec 
+
+2013-05-28 23:22:26 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agents stepped/dead/born: 768.0/424/24 done in 0 sec
+2013-05-28 23:22:26 : 15/792 after 25 shove iterations
+2013-05-28 23:22:26 : Eroding 540 (213.469E3/120.658E2 fg)
+2013-05-28 23:22:26 : Detachment done in 0 sec
+2013-05-28 23:22:26 : Simulating agents done in 0 sec
+2013-05-28 23:22:26 : System description finalized
+2013-05-28 23:22:26 : Computation time :0.3 minute(s) 
+ 	 -> Iter 34, Time: 17.0 achieved in 0.9 sec 
+
+2013-05-28 23:22:26 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Agent location is not valid -> Killed
+2013-05-28 23:22:26 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agents stepped/dead/born: 790.0/380/25 done in 0 sec
+2013-05-28 23:22:27 : 18/815 after 2 shove iterations
+2013-05-28 23:22:27 : Eroding 556 (245.81E3/111.384E2 fg)
+2013-05-28 23:22:27 : Detachment done in 0 sec
+2013-05-28 23:22:27 : Simulating agents done in 0 sec
+2013-05-28 23:22:27 : Computation time :0.3 minute(s) 
+ 	 -> Iter 35, Time: 17.5 achieved in 0.6 sec 
+
+2013-05-28 23:22:27 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Agent location is not valid -> Killed
+2013-05-28 23:22:27 : Doing pressure calculations.
+2013-05-28 23:22:27 : Agents stepped/dead/born: 812.0/404/23 done in 0 sec
+2013-05-28 23:22:27 : 18/835 after 4 shove iterations
+2013-05-28 23:22:27 : Eroding 574 (271.393E3/231.085E2 fg)
+2013-05-28 23:22:27 : Detachment done in 0 sec
+2013-05-28 23:22:27 : Simulating agents done in 0 sec
+2013-05-28 23:22:29 : System description finalized
+2013-05-28 23:22:29 : Computation time :0.4 minute(s) 
+ 	 -> Iter 36, Time: 18.0 achieved in 2.4 sec 
+
+2013-05-28 23:22:29 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:29 : Agent location is not valid -> Killed
+2013-05-28 23:22:29 : Agent location is not valid -> Killed
+2013-05-28 23:22:29 : Doing pressure calculations.
+2013-05-28 23:22:29 : Agent location is not valid -> Killed
+2013-05-28 23:22:29 : Agent location is not valid -> Killed
+2013-05-28 23:22:29 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agents stepped/dead/born: 834.0/326/21 done in 0 sec
+2013-05-28 23:22:30 : 15/855 after 2 shove iterations
+2013-05-28 23:22:30 : Eroding 595 (302.654E3/231.248E2 fg)
+2013-05-28 23:22:30 : Detachment done in 0 sec
+2013-05-28 23:22:30 : Simulating agents done in 0 sec
+2013-05-28 23:22:30 : Computation time :0.4 minute(s) 
+ 	 -> Iter 37, Time: 18.5 achieved in 0.7 sec 
+
+2013-05-28 23:22:30 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Agent location is not valid -> Killed
+2013-05-28 23:22:30 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agents stepped/dead/born: 851.0/474/36 done in 0 sec
+2013-05-28 23:22:31 : 21/887 after 4 shove iterations
+2013-05-28 23:22:31 : Eroding 610 (229.919E3/991.54E1 fg)
+2013-05-28 23:22:31 : Detachment done in 0 sec
+2013-05-28 23:22:31 : Simulating agents done in 0 sec
+2013-05-28 23:22:31 : System description finalized
+2013-05-28 23:22:31 : Computation time :0.4 minute(s) 
+ 	 -> Iter 38, Time: 19.0 achieved in 0.9 sec 
+
+2013-05-28 23:22:31 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Agent location is not valid -> Killed
+2013-05-28 23:22:31 : Doing pressure calculations.
+2013-05-28 23:22:31 : Agents stepped/dead/born: 884.0/308/37 done in 0 sec
+2013-05-28 23:22:32 : 21/921 after 19 shove iterations
+2013-05-28 23:22:32 : Eroding 627 (261.941E3/000E0 fg)
+2013-05-28 23:22:32 : Detachment done in 0 sec
+2013-05-28 23:22:32 : Simulating agents done in 0 sec
+2013-05-28 23:22:32 : Computation time :0.4 minute(s) 
+ 	 -> Iter 39, Time: 19.5 achieved in 0.8 sec 
+
+2013-05-28 23:22:32 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Agent location is not valid -> Killed
+2013-05-28 23:22:32 : Doing pressure calculations.
+2013-05-28 23:22:32 : Agents stepped/dead/born: 917.0/330/24 done in 0 sec
+2013-05-28 23:22:32 : 22/941 after 2 shove iterations
+2013-05-28 23:22:32 : Eroding 645 (266.143E3/119.848E2 fg)
+2013-05-28 23:22:32 : Detachment done in 0 sec
+2013-05-28 23:22:32 : Simulating agents done in 0 sec
+2013-05-28 23:22:32 : System description finalized
+2013-05-28 23:22:32 : Computation time :0.4 minute(s) 
+ 	 -> Iter 40, Time: 20.0 achieved in 0.9 sec 
+
+2013-05-28 23:22:33 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agents stepped/dead/born: 937.0/368/25 done in 0 sec
+2013-05-28 23:22:33 : 18/962 after 2 shove iterations
+2013-05-28 23:22:33 : Eroding 663 (272.176E3/000E0 fg)
+2013-05-28 23:22:33 : Detachment done in 0 sec
+2013-05-28 23:22:33 : Simulating agents done in 0 sec
+2013-05-28 23:22:33 : Computation time :0.4 minute(s) 
+ 	 -> Iter 41, Time: 20.5 achieved in 0.6 sec 
+
+2013-05-28 23:22:33 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Agent location is not valid -> Killed
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:33 : Doing pressure calculations.
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Doing pressure calculations.
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Doing pressure calculations.
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Doing pressure calculations.
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Agent location is not valid -> Killed
+2013-05-28 23:22:34 : Doing pressure calculations.
+2013-05-28 23:22:34 : Agents stepped/dead/born: 956.0/332/29 done in 0 sec
+2013-05-28 23:22:34 : 19/985 after 2 shove iterations
+2013-05-28 23:22:34 : Eroding 680 (269.414E3/000E0 fg)
+2013-05-28 23:22:34 : Detachment done in 0 sec
+2013-05-28 23:22:34 : Simulating agents done in 0 sec
+2013-05-28 23:22:34 : System description finalized
+2013-05-28 23:22:34 : Computation time :0.4 minute(s) 
+ 	 -> Iter 42, Time: 21.0 achieved in 1.4 sec 
+
+2013-05-28 23:22:35 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agents stepped/dead/born: 980.0/436/35 done in 0 sec
+2013-05-28 23:22:35 : 11/1015 after 2 shove iterations
+2013-05-28 23:22:35 : Eroding 699 (290.459E3/233.633E2 fg)
+2013-05-28 23:22:35 : Detachment done in 0 sec
+2013-05-28 23:22:35 : Simulating agents done in 0 sec
+2013-05-28 23:22:35 : Computation time :0.5 minute(s) 
+ 	 -> Iter 43, Time: 21.5 achieved in 0.7 sec 
+
+2013-05-28 23:22:35 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Agent location is not valid -> Killed
+2013-05-28 23:22:35 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agent location is not valid -> Killed
+2013-05-28 23:22:36 : Doing pressure calculations.
+2013-05-28 23:22:36 : Agents stepped/dead/born: 1009.0/482/27 done in 0 sec
+2013-05-28 23:22:36 : 21/1036 after 2 shove iterations
+2013-05-28 23:22:36 : Eroding 709 (212.485E3/112.992E2 fg)
+2013-05-28 23:22:36 : Detachment done in 0 sec
+2013-05-28 23:22:36 : Simulating agents done in 0 sec
+2013-05-28 23:22:36 : System description finalized
+2013-05-28 23:22:36 : Computation time :0.5 minute(s) 
+ 	 -> Iter 44, Time: 22.0 achieved in 1.3 sec 
+
+2013-05-28 23:22:37 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Agent location is not valid -> Killed
+2013-05-28 23:22:37 : Doing pressure calculations.
+2013-05-28 23:22:37 : Agents stepped/dead/born: 1034.0/356/23 done in 0 sec
+2013-05-28 23:22:37 : 16/1057 after 2 shove iterations
+2013-05-28 23:22:37 : Eroding 729 (296.932E3/000E0 fg)
+2013-05-28 23:22:37 : Detachment done in 0 sec
+2013-05-28 23:22:37 : Simulating agents done in 0 sec
+2013-05-28 23:22:37 : Computation time :0.5 minute(s) 
+ 	 -> Iter 45, Time: 22.5 achieved in 0.7 sec 
+
+2013-05-28 23:22:38 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Agent location is not valid -> Killed
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Doing pressure calculations.
+2013-05-28 23:22:38 : Agents stepped/dead/born: 1053.0/406/30 done in 0 sec
+2013-05-28 23:22:38 : 22/1083 after 2 shove iterations
+2013-05-28 23:22:38 : Eroding 742 (210.588E3/000E0 fg)
+2013-05-28 23:22:38 : Detachment done in 0 sec
+2013-05-28 23:22:38 : Simulating agents done in 0 sec
+2013-05-28 23:22:39 : System description finalized
+2013-05-28 23:22:39 : Computation time :0.5 minute(s) 
+ 	 -> Iter 46, Time: 23.0 achieved in 1.9 sec 
+
+2013-05-28 23:22:39 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Doing pressure calculations.
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Doing pressure calculations.
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Agent location is not valid -> Killed
+2013-05-28 23:22:39 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Agent location is not valid -> Killed
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Doing pressure calculations.
+2013-05-28 23:22:40 : Agents stepped/dead/born: 1079.0/452/27 done in 0 sec
+2013-05-28 23:22:40 : 25/1106 after 2 shove iterations
+2013-05-28 23:22:40 : Eroding 760 (276.083E3/000E0 fg)
+2013-05-28 23:22:40 : Detachment done in 0 sec
+2013-05-28 23:22:40 : Simulating agents done in 0 sec
+2013-05-28 23:22:40 : Computation time :0.5 minute(s) 
+ 	 -> Iter 47, Time: 23.5 achieved in 1.3 sec 
+
+2013-05-28 23:22:41 : Solving Diffusion-reaction done in 0 sec
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:41 : Agent location is not valid -> Killed
+2013-05-28 23:22:41 : Doing pressure calculations.
+2013-05-28 23:22:43 : Agents stepped/dead/born: 1103.0/354/32 done in 2 sec
+2013-05-28 23:22:44 : 23/1135 after 49 shove iterations
+2013-05-28 23:22:44 : Eroding 778 (281.711E3/000E0 fg)
+2013-05-28 23:22:44 : Detachment done in 1 sec
+2013-05-28 23:22:44 : Simulating agents done in 0 sec
+2013-05-28 23:22:45 : System description finalized
+2013-05-28 23:22:45 : Computation time :0.6 minute(s) 
+ 	 -> Iter 48, Time: 24.0 achieved in 4.4 sec 
+
+2013-05-28 23:22:45 : Simulation succesfully achieved in 0.62 minutes.
+2013-05-28 23:22:46 : Wrote random number generator

@@ -1,0 +1,28 @@
+<idynomics>
+ <simulation iterate="0" time="0.0" unit="hour">
+<grid resolution="8.0" nI="33" nJ="33" nK="1"/>
+<species name="plank_dLuxS" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+</species>
+<species name="WTPlank" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+</species>
+<species name="JoinedWT" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+</species>
+<species name="WT" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+4,0,0,0.0,10981.55060758351,0.0,0.0,0.0,0.0,2.3326658409032586,162.153111265622,0.0,1.70673371042384,1.70673371042384;
+5,0,0,0.0,12429.717184422248,0.0,0.0,0.0,0.0,1.8289238525343334,3.1339841682149236,0.0,1.8157855532040323,1.8157855532040323;
+1,0,0,0.0,12309.753293395073,0.0,0.0,0.0,0.0,1.6530885238691488,170.36881742284368,0.0,1.8070018924231224,1.8070018924231224;
+3,0,0,0.0,9210.072556309502,0.0,0.0,0.0,0.0,1.5091919451380065,61.33831645463431,0.0,1.563023323474331,1.563023323474331;
+2,0,0,0.0,12090.775897566557,0.0,0.0,0.0,0.0,1.8309566617219604,230.30169418502678,0.0,1.7908574529436727,1.7908574529436727;
+</species>
+<species name="JoinedLuxS" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+</species>
+<species name="dLuxS" header="family,genealogy,generation,birthday,biomass,inert,capsule,growthRate,volumeRate,locationX,locationY,locationZ,radius,totalRadius">
+10,0,0,0.0,9160.409391144787,0.0,0.0,0.0,0.0,2.0762359219225224,144.973232259548,0.0,1.558803508085909,1.558803508085909;
+9,0,0,0.0,13145.336424880414,0.0,0.0,0.0,0.0,2.0423906961647083,57.42961658194129,0.0,1.86732445774312,1.86732445774312;
+6,0,0,0.0,11833.74796392044,0.0,0.0,0.0,0.0,1.4187983900811152,25.38606932940074,0.0,1.7717200115352232,1.7717200115352232;
+8,0,0,0.0,12390.204786963099,0.0,0.0,0.0,0.0,2.146463176190522,181.34436829971938,0.0,1.8128971870420936,1.8128971870420936;
+7,0,0,0.0,9407.494916148513,0.0,0.0,0.0,0.0,1.8278546749404607,220.88705278286477,0.0,1.5796865811529908,1.5796865811529908;
+</species>
+
+</simulation>
+</idynomics>
