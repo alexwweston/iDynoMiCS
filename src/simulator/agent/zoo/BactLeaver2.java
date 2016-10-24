@@ -8,7 +8,6 @@ import simulator.SoluteGrid;
 import simulator.agent.Species;
 import simulator.geometry.ContinuousVector;
 import utils.ExtraMath;
-import utils.LogFile;
 import utils.XMLParser;
 
 /**
@@ -17,12 +16,13 @@ import utils.XMLParser;
  * a planktonic) with a certain probability if [chemoffector] is greater than a threshold
  *
  */
-public class BactLeaver extends Bacterium {
+public class BactLeaver2 extends BactAdaptableGrowth {
 	public boolean onBorder = false;
 	public String becomesPlanktonicSpec;
 	public double leavingProb;
 	public double threshold;
-	public String chemoeffector;	
+	public String chemoeffector;
+	
 	
 	public void initFromProtocolFile(Simulator aSim, XMLParser aSpeciesRoot) {
 		// Initialisation of Bacterium
@@ -41,8 +41,9 @@ public class BactLeaver extends Bacterium {
 	/**
 	 * A Bactleaver can sense the local [chemoeffector]
 	 */
-	public BactLeaver() {
+	public BactLeaver2() {
 		super();
+
 	}
 	
 	protected void internalStep(){
@@ -65,7 +66,8 @@ public class BactLeaver extends Bacterium {
 		int index = _agentGrid.mySim.getSpeciesIndex(becomesPlanktonicSpec); 
 		Species plankSpec = _agentGrid.mySim.speciesList.get(index);
 		plankSpec.createPop(this._location);
-		//The planktonic will add itself to the simulation	
+		//The planktonic will add itself to the simulation
+		
 		this.die(false);
 		
 	}
@@ -93,7 +95,7 @@ public class BactLeaver extends Bacterium {
 				uRandom = ExtraMath.getUniRand();
 				if(uRandom < leavingProb){
 					leave = true;
-					LogFile.chronoMessageOut("LEAVER" + "\t" + this.getName() + "\t" + _location);
+				System.err.println("leaving");
 				}
 				
 			}

@@ -6,7 +6,9 @@ package simulator.agent.zoo;
 import simulator.Simulator;
 import simulator.SoluteGrid;
 import simulator.geometry.ContinuousVector;
+import simulator.geometry.Domain;
 import utils.ExtraMath;
+import utils.LogFile;
 import utils.XMLParser;
 
 /**
@@ -52,7 +54,6 @@ public class ChemotaxingPlanktonic extends Planktonic {
 			chemotaxSolute = this._agentGrid.mySim.soluteList[this._agentGrid.mySim.getSoluteIndex(chemoeffector)];
 		}
 		if(chemotaxSolute.getValueAt(_location)>chem_threshold){
-			
 				chemotax();
 		}
 		else{
@@ -68,26 +69,19 @@ public class ChemotaxingPlanktonic extends Planktonic {
 	 */
 	private void chemotax() {
 
-		
-
-		
 		//1) get the gradient--this will be the direction the particle 
 		//should move in or away from
-		
+		Domain compDomain = _agentGrid.mySim.world.getDomain("MyBiofilm");
 		ContinuousVector direction = chemotaxSolute.getGradient2DNoZ(_location);
-		
+		if (compDomain.is3D()) {
+			direction = chemotaxSolute.getGradient(_location);
+		}
 		if(repellent){
 			direction.turnAround();
+			LogFile.chronoMessageOut("REPELLED" + "\t" + this.getName() + "\t" + _location);
 		}
-		
 		//2) scale the gradient set the scaled gradient as _movement
-		_movement = this.getScaledMove(_location, direction, distEachRun);
-		
-		
-		
-		
-		
-		
+	    _movement = this.getScaledMove(_location, direction, ExtraMath.getUniRand()*distEachRun);	
 	}
 
 }

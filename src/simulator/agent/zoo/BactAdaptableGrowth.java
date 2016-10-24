@@ -54,6 +54,7 @@ public class BactAdaptableGrowth extends BactAdaptable {
 			} else if (getSpeciesParam().switchType.equals("growth")) {
 				// changes as bacteria grows
 				localValue = getNetGrowth();
+			} else if (getSpeciesParam().switchType.equals("boundary")) {
 			}
 		
 		}

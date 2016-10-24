@@ -236,7 +236,9 @@ public class AgentContainer {
 			if(aSim.usePlanktonics){
 				aSim.planktonicManager.runPlanktonicTimeSteps();
 			
+				System.out.println("removing dead planktonics");
 				//remove dead planktonics from the simulation
+				System.out.println(_agentToKill.size());
 				for(SpecialisedAgent aDeathAgent: _agentToKill){
 					if (aDeathAgent.isDead) {
 						//System.out.println("killing agent with location: " + ((LocatedAgent) aDeathAgent)._location.toString() + " and trace: " + aDeathAgent);
@@ -245,7 +247,8 @@ public class AgentContainer {
 						removeLocated(aDeathAgent);
 					}
 				}
-			
+				System.out.println("removed dead planktonics");
+
 				
 			}
 			
@@ -811,8 +814,9 @@ public class AgentContainer {
 		if (anAgent instanceof LocatedAgent) {
 			LocatedAgent aLoc = (LocatedAgent) anAgent;
 			int index = getIndexedPosition(aLoc.getLocation());
-			if (!Double.isNaN(index))
+			if (!Double.isNaN(index)) {
 				_grid[index].remove(aLoc);
+			}
 		}
 	}
 

@@ -41,13 +41,8 @@ public class PlanktonicManager {
 	public final double AGENTTIMESTEP;//(hr)
 	public final double PLANKTONICTIMESTEP;//(hr)
 	public double plankTSPerAgentTS;//number of planktonic time steps per agent time step
-	
-	
-	
-	
 
 	// Container for all agents (even the non located ones)
-
 	public LinkedList<Planktonic> planktonicList ;
 	public ListIterator<Planktonic> planktonicIter;
 	
@@ -63,6 +58,7 @@ public class PlanktonicManager {
 	public ListIterator<Planktonic> removePlanktonicsIter;
 
 	// Temporary containers used to store agents who will be removed
+	// not used???
 	public LinkedList<Planktonic> _planktToKill = new LinkedList<Planktonic>();
 
 	public PriorityQueue<Event> eventQueue;
@@ -77,7 +73,6 @@ public class PlanktonicManager {
 			//TODO read in vals from the protocol file. For now, just hard-code them
 			PLANKTONICTIMESTEP = root.getParamDbl("planktonicTimeStep");
 			
-			
 			mySim = aSimulator;
 			AGENTTIMESTEP= agentTimeStep;
 	
@@ -90,7 +85,6 @@ public class PlanktonicManager {
 			//set up eventQueue
 			eventQueue=new PriorityQueue<Event>();
 			
-
 			//for implementation of different arrival rates, start a list of the
 			//different planktonic species
 			plankProgenList = new LinkedList<Planktonic>();
@@ -100,7 +94,6 @@ public class PlanktonicManager {
 			System.out.println(" error in PlanktonicManager constructor " + e);
 			throw e;
 		}
-			
 		
 	}
 	
@@ -112,12 +105,11 @@ public class PlanktonicManager {
 	public void registerPlanktonic(Planktonic anAgent){
 	
 	try{
-			planktonicList.add(anAgent);
+		planktonicList.add(anAgent);
 	}catch(Exception e){
 		System.out.println(" error in registerPlanktonic " + e);
 	}
-		
-		
+
 	}
 	
 	/**
@@ -129,8 +121,7 @@ public class PlanktonicManager {
 				Planktonic aPlanktonic;
 				for (removePlanktonicsIter = removePlanktonics.listIterator(); removePlanktonicsIter.hasNext();) {
 					aPlanktonic = removePlanktonicsIter.next();
-					planktonicList.remove(aPlanktonic);
-					
+					planktonicList.remove(aPlanktonic);	
 				}
 				//now clear the list of planktonics to remove
 				removePlanktonics.clear();
@@ -170,7 +161,6 @@ public class PlanktonicManager {
 			for (plankProgenIter = plankProgenList.listIterator(); plankProgenIter.hasNext();) {
 				aPlanktonic = plankProgenIter.next();
 				for(int i=0; i< aPlanktonic.arrivalRate*AGENTTIMESTEP; i++){
-					
 					eventQueue.add(new Event(eventType.ARRIVAL, Math.random()*AGENTTIMESTEP, aPlanktonic.getSpecies().speciesName));
 				}
 			}
@@ -183,14 +173,12 @@ public class PlanktonicManager {
 				eventQueue.add(new Event(eventType.STEP, time));
 				time += PLANKTONICTIMESTEP;
 			}
-			
-			
+					
 			/*add a final step event, which occurs at the next AGENTTIMESTEP
 			* Note: similar to how the last iterate of an Agent time step is handled in 
 			* AgentContainer.step(), this final time slice could be shorter than PLANKTONICTIMESTEP
 			*/
 			eventQueue.add(new Event(eventType.STEP, AGENTTIMESTEP));
-			
 			
 			while(!eventQueue.isEmpty()){
 				currEvent= eventQueue.remove();
@@ -233,7 +221,6 @@ public class PlanktonicManager {
 	public void addPlanktonic(String plankName){
 		
 		try{
-		System.out.println("adding planktonic");
 
 		int index = mySim.getSpeciesIndex(plankName);
 		
@@ -249,7 +236,7 @@ public class PlanktonicManager {
 	}
 	
 	/**
-	 * called by Planktonic when a particular plantonic is within range to
+	 * called by Planktonic when a particular planktonic is within range to
 	 * attach to the biofilm.
 	 * @param _location is the current location of the plankonic cell that will attach
 	 */
