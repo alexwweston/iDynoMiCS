@@ -61,7 +61,6 @@ public class BactAdaptableGrowthParam extends BactAdaptableParam {
 			reacIndex = aSim.getReactionIndex(aReactionMarkUp.getAttributeValue("name"));
 			if (aReactionMarkUp.getAttributeValue("status").equals("active")) {
 				offStateReactions.add(reacIndex);
-
 			}
 		}
 
@@ -71,8 +70,6 @@ public class BactAdaptableGrowthParam extends BactAdaptableParam {
 		offColor = utils.UnitConverter.getColor(colorName);
 
 		lagSwitchOff = childParser.getParamTime("switchLag");
-
-
 
 		// now set up when the on and off states are set/met
 		childParser = new XMLParser(switchParser.getChildElement("onCondition"));
@@ -109,6 +106,14 @@ public class BactAdaptableGrowthParam extends BactAdaptableParam {
 	//			" used in the <reactionSwitch> markup does not exist.");
 
 		}
+		if (switchType.equals("boundary")) {
+			switchValue = childParser.getParamConc("concentration");
+	//		switchControlIndex = aSim.particleDic.indexOf(switchControl);
+	//		if (switchControlIndex == -1)
+	//			System.out.println("WARNING: growth type "+switchControl+
+	//			" used in the <reactionSwitch> markup does not exist.");
+
+		}		
 		
 	}
 

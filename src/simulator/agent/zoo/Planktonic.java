@@ -51,7 +51,6 @@ public class Planktonic extends Bacterium {
 			attachmentSpecies = aSpeciesRoot.getParam("becomesBiofilmSpecies").trim();
 		}
 
-
 		init();
 	}
 
@@ -62,8 +61,6 @@ public class Planktonic extends Bacterium {
 	 */
 	public Planktonic() {
 		super();		
-		
-		
 	}
 	/**
 	 * Called at each time step (under the control of the method Step of the
@@ -72,8 +69,7 @@ public class Planktonic extends Bacterium {
 	protected void internalStep() {
 		
 		determineNewLoc();
-		
-		
+	
 		move();
 		
 		//check for possibility that planktonic will attach
@@ -81,9 +77,7 @@ public class Planktonic extends Bacterium {
 		
 		if(hasAttachment && willAttach(1, attachmentRadius)){
 			attach();
-			
-		}
-		
+		}		
 		
 	}
 	
@@ -95,11 +89,13 @@ public class Planktonic extends Bacterium {
 		
 			//choose a random direction by getting a random angle
 		    double rads =  (ExtraMath.getUniRand() * Math.PI * 2);
-		    ContinuousVector direction = new ContinuousVector (Math.cos(rads), Math.sin(rads), 0);
-		    
+		    double random_z = ExtraMath.getUniRand();
+		    double random_x = ExtraMath.getUniRand();
+		    if (random_x > .5) {
+		    	random_z = random_z * -1;
+		    }
+		    ContinuousVector direction = new ContinuousVector (Math.cos(rads), Math.sin(rads), random_z);
 		    _movement = this.getScaledMove(_location, direction, ExtraMath.getUniRand()*distEachRun);
-		
-		
 		
 		//_movement.add( (ExtraMath.getNormRand())*2, (ExtraMath.getNormRand())*2, 0);
 		//_movement.add(-10,5,0);
@@ -114,7 +110,9 @@ public class Planktonic extends Bacterium {
 		//1) Register new biofilm cell with this planktonic's 
 		//location //TODO: should other parameters carry over as well?
 		
+		LogFile.chronoMessageOut("JOINER" + "\t" + this.getName() + "\t" + _location);
 		_agentGrid.mySim.planktonicManager.newBiofilmCell(_location, attachmentSpecies);
+		
 		//2) Remove and kill this planktonic
 		_agentGrid.mySim.planktonicManager.scheduleRemove(this);
 		super.die(true);
@@ -138,11 +136,11 @@ public class Planktonic extends Bacterium {
 		Iterator<LocatedAgent> iter = _myNeighbors.iterator();
 		while (iter.hasNext()&&attach==false) {
 			anAgent=iter.next();
+			
 			//check for a neighboring biofilm cell
 			if(!(anAgent instanceof Planktonic)){
 				dist = computeDifferenceVector(_location, anAgent._location);
 				if(dist<attachDist) attach= true;
-				
 			}
 	
 		}
@@ -158,6 +156,7 @@ public class Planktonic extends Bacterium {
 	 * need to simply detect and kill those agents that leave the domain
 	 * Apply the movement stored taking care to respect boundary conditions
 	 */
+	/**
 	public double move() {
 		//System.out.println("Agent is moving");
 		if (!_movement.isValid()) {
@@ -185,18 +184,19 @@ public class Planktonic extends Bacterium {
 			_agentGrid.mySim.planktonicManager.scheduleRemove(this);
 			System.out.println("removing planktonic " + this + " from planktonicManager." +
 								" Planktonic is out of bounds");
-			
 		}
-	
 
 			_agentGrid.registerMove(this);
-	
+
+
 			double delta = _movement.norm();
 			_movement.reset();
+
 			return delta/_totalRadius;
 
 
 	}
+	*/
 	
 	/**
 	 * Register the agent on the agent grid and on the guilds
@@ -215,12 +215,34 @@ public class Planktonic extends Bacterium {
 		
 	}
 	
-	
 	public void entryLoc(){
 		//remember here that the traditional meanings of x and y
 		//are switched in iDynoMiCS
-		double rand, x_coord, y_coord, height, width;
-		try{
+		// ARSN: entry location for our simulations is the z
+		
+		double rand, x_coord, y_coord, z_coord, height, width, depth;
+		
+		try {
+		Domain compDomain = _agentGrid.mySim.world.getDomain("MyBiofilm");
+		width = compDomain.length_Y;
+		height = compDomain.length_X;
+		if (compDomain.is3D()) {
+			depth = compDomain.length_Z;
+		} else {
+			depth = 0;
+		}
+		x_coord = height - 20;
+		y_coord = Math.random() * width;
+		z_coord = Math.random() * depth;
+
+		ContinuousVector startLoc = new ContinuousVector(x_coord, y_coord, z_coord);
+		this.setLocation(startLoc);
+		
+		} catch (Exception e) {
+			System.out.println("error in Planktonic.entryLoc()");			
+		}
+
+/*		try{
 		Domain compDomain = _agentGrid.mySim.world.getDomain("MyBiofilm");
 		width = compDomain.length_Y;
 		height = compDomain.length_X;
@@ -233,12 +255,9 @@ public class Planktonic extends Bacterium {
 		rand=  ((2*width + height)*ExtraMath.getUniRand());
 		//test if the entry location will be at the 
 		//top or on one of the sides
-
 		if(rand<=height){
 			y_coord = 1;
 			x_coord = rand;
-			
-			
 		}else if(rand<=(height+width)){
 			y_coord = rand - height;
 			x_coord = height-1;
@@ -255,6 +274,7 @@ public class Planktonic extends Bacterium {
 		}catch(Exception e){
 			System.out.println("error in Planktonic.entryLoc()");
 		}
+		*/
 		
 	}
 	

@@ -104,7 +104,6 @@ public class Idynomics {
 	 * Process arguments, create a Simulator object and launch its execution
 	 */
 	public static void main(String[] args) throws Exception {
-		System.out.println("This is a git test");
 		System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
 		processArguments(args);
 		currentPath = _activePath[0];
@@ -300,7 +299,6 @@ public class Idynomics {
 			begin = System.currentTimeMillis();
 			aSimulator.run();
 			begin = Math.round(System.currentTimeMillis()-begin);
-
 			String time = ExtraMath.toString(begin/1e3/60, false);
 			LogFile.writeLogAlways("Simulation succesfully achieved in "+time+" minutes.");
 
