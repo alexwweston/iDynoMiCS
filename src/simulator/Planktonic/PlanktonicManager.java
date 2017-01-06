@@ -199,7 +199,7 @@ public class PlanktonicManager {
 	
 	public void stepPlanktonics(){
 		try{
-		System.out.println("stepping all planktonics");
+		LogFile.chronoMessageOut("Stepping all planktonics");
 		Planktonic aPlanktonic;
 		
 		for (planktonicIter = planktonicList.listIterator(); planktonicIter.hasNext();) {
@@ -242,17 +242,7 @@ public class PlanktonicManager {
 	 */
 
 	public void newBiofilmCell(ContinuousVector _location, String species) {
-		// for now, handle multiSpecies by just toggling the joiner name
-		// here. Will need to be more robust moving forward
-		/*
-		if(toggle){//for t
-			species = "Joined_dLuxS";
-			toggle = false;
-		}
-		else{
-			toggle = true;
-		}
-		*/
+
 		int index = mySim.getSpeciesIndex(species); 
 		Species biofilmSpec = mySim.speciesList.get(index);
 		biofilmSpec.createPop(_location);

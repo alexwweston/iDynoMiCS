@@ -235,19 +235,17 @@ public class AgentContainer {
 			/* Preform planktonic steps */
 			if(aSim.usePlanktonics){
 				aSim.planktonicManager.runPlanktonicTimeSteps();
-			
-				System.out.println("removing dead planktonics");
+	
 				//remove dead planktonics from the simulation
-				System.out.println(_agentToKill.size());
+				int deadPlanktonics = _agentToKill.size();
 				for(SpecialisedAgent aDeathAgent: _agentToKill){
 					if (aDeathAgent.isDead) {
-						//System.out.println("killing agent with location: " + ((LocatedAgent) aDeathAgent)._location.toString() + " and trace: " + aDeathAgent);
 						nDead++;
 						agentList.remove(aDeathAgent);
 						removeLocated(aDeathAgent);
 					}
 				}
-				System.out.println("removed dead planktonics");
+				LogFile.chronoMessageOut("Removed " + deadPlanktonics + " dead planktonics");
 
 				
 			}
@@ -267,7 +265,7 @@ public class AgentContainer {
 			//set up border for planktonic leaving
 			notifyBorderLeavers();
 
-			System.out.println("stepping non-planktonics");
+			LogFile.chronoMessageOut("Stepping non-planktonics");
 			for (agentIter = agentList.listIterator(); agentIter.hasNext();) {
 				anAgent = agentIter.next();
 				
@@ -279,7 +277,7 @@ public class AgentContainer {
 				
 			}
 			
-			System.out.println("done stepping non-planktonics");
+			LogFile.chronoMessageOut("Done stepping non-planktonics");
 			Collections.shuffle(agentList, ExtraMath.random);
 
 			if (Simulator.isChemostat){

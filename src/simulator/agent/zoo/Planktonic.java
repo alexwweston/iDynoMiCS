@@ -106,11 +106,10 @@ public class Planktonic extends Bacterium {
 	 * and addition of new biofilm cell to the System
 	 */
 	private void attach() {
-		System.out.println("attach at location: " + _location);
 		//1) Register new biofilm cell with this planktonic's 
 		//location //TODO: should other parameters carry over as well?
 		
-		LogFile.chronoMessageOut("JOINER" + "\t" + this.getName() + "\t" + _location);
+		LogFile.chronoMessageOut("Joined biofilm:" + "\t" + this.getName() + "\t" + _location);
 		_agentGrid.mySim.planktonicManager.newBiofilmCell(_location, attachmentSpecies);
 		
 		//2) Remove and kill this planktonic
@@ -150,53 +149,7 @@ public class Planktonic extends Bacterium {
 		return attach;
 		
 	}
-	/**
-	 * @override original method in LocatedAgent
-	 * LocatedAgent.move() prevents agents from leaving a boundary--but we
-	 * need to simply detect and kill those agents that leave the domain
-	 * Apply the movement stored taking care to respect boundary conditions
-	 */
-	/**
-	public double move() {
-		//System.out.println("Agent is moving");
-		if (!_movement.isValid()) {
-			LogFile.writeLog("Incorrect movement coordinates");
-			_movement.reset();
-		}
 
-		if (!_agentGrid.is3D&&_movement.z!=0) {
-			_movement.z = 0;
-			_movement.reset();
-			LogFile.writeLog("Try to move in z direction !");
-		}
-
-		// No movement planned, finish here
-		if (_movement.isZero())
-			return 0;
-		
-		_location.add(_movement);
-		
-		// Test the boundaries
-		//checkBoundaries();
-		// Die if you are out of bounds
-		if (! _agentGrid.domain.isInside(_location)  ){ 
-			//die(true);
-			_agentGrid.mySim.planktonicManager.scheduleRemove(this);
-			System.out.println("removing planktonic " + this + " from planktonicManager." +
-								" Planktonic is out of bounds");
-		}
-
-			_agentGrid.registerMove(this);
-
-
-			double delta = _movement.norm();
-			_movement.reset();
-
-			return delta/_totalRadius;
-
-
-	}
-	*/
 	
 	/**
 	 * Register the agent on the agent grid and on the guilds
@@ -242,39 +195,7 @@ public class Planktonic extends Bacterium {
 			System.out.println("error in Planktonic.entryLoc()");			
 		}
 
-/*		try{
-		Domain compDomain = _agentGrid.mySim.world.getDomain("MyBiofilm");
-		width = compDomain.length_Y;
-		height = compDomain.length_X;
-		System.out.println("after Planktonic()->width/height");
-		//the random number will be normally distributed, as it's more likely
-		//planktonics enter from the top of the simulation.
-		//2width + height is the length of the computational domain's border; that is,
-		//the length of the border at which planktonics can arrive
-		//TODO: implement normal. for now, just using uniform
-		rand=  ((2*width + height)*ExtraMath.getUniRand());
-		//test if the entry location will be at the 
-		//top or on one of the sides
-		if(rand<=height){
-			y_coord = 1;
-			x_coord = rand;
-		}else if(rand<=(height+width)){
-			y_coord = rand - height;
-			x_coord = height-1;
-		}else{
-			y_coord = width-1;
-			x_coord = rand - width - height;
-		}
 
-		ContinuousVector startLoc = new ContinuousVector(x_coord, y_coord, 0);
-		if( !_agentGrid.domain.isInside(startLoc) ){
-			System.err.println("ru-roh: " + startLoc.toString());
-		}
-		this.setLocation(startLoc);
-		}catch(Exception e){
-			System.out.println("error in Planktonic.entryLoc()");
-		}
-		*/
 		
 	}
 	
